@@ -1,0 +1,9 @@
+node_modules/
+.next/
+__pycache__/
+venv/
+env/
+.env
+.DS_Store
+*.mp3
+backend/__pycache__/

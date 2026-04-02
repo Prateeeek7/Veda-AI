@@ -1,0 +1,28 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+🙏 GeetaAI Starting...
+⏳ Loading FAISS index...
+⏳ Loading verse metadata...
+⏳ Loading embedding model...
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 19215.96it/s]
+[1mBertModel LOAD REPORT[0m from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+[3mNotes:
+- UNEXPECTED[3m	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.[0m
+✓ Ready — 700 verses indexed
+
+🌐 Open http://localhost:5001 in your browser
+
+ * Serving Flask app 'chatbot'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5001
+Press CTRL+C to quit
+Streaming TTS via Microsoft Edge Neural TTS...
+127.0.0.1 - - [02/Apr/2026 21:02:07] "GET /tts?text=test HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2026 21:03:35] "POST /translate-verse HTTP/1.1" 200 -
+Streaming TTS via Microsoft Edge Neural TTS...
+127.0.0.1 - - [02/Apr/2026 21:03:42] "GET /tts?text=Translation...%20%0ASalutations%20to%20Narayana,%20to%20Nara,%20the%20supreme%20among%20men,%20and%20to%20Devi%20Saraswati.%20Then,%20let%20us%20proclaim%20victory.%0A%0APhilosophical%20Meaning...%20%0AThe%20verse%20embodies%20the%20trinity%20of%20spiritual%20growth,%20where%20Narayana%20represents%20the%20Divine%20Consciousness,%20Nara%20symbolizes%20the%20human%20endeavor,%20and%20Devi%20Saraswati%20signifies%20the%20creative%20potential.%20By%20invoking%20these%20three%20aspects,%20the%20seeker%20acknowledges%20the%20interconnectedness%20of%20the%20universe%20and%20the%20harmony%20between%20the%20individual%20self%20and%20the%20cosmic%20consciousness.%20This%20invocation%20is%20a%20call%20to%20action,%20proclaiming%20victory%20over%20the%20limitations%20of%20the%20ego%20and%20the%20ignorance%20of%20the%20material%20world,%20and%20embracing%20the%20path%20of%20Dharma%20and%20self-realization.%20The%20verse%20sets%20the%20tone%20for%20a%20journey%20of%20self-discovery,%20where%20the%20seeker%20aligns%20their%20karma%20with%20the%20cosmic%20will,%20ultimately%20leading%20to%20liberation%20and%20enlightenment. HTTP/1.1" 200 -
+127.0.0.1 - - [02/Apr/2026 21:04:42] "POST /translate-verse HTTP/1.1" 200 -
