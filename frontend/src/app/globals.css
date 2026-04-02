@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-gold: #D4AF37;
+  --color-gold-glow: rgba(212, 175, 55, 0.5);
+  --color-saffron: #FF9933;
+  --color-bg-deep: #03050a;
+  --color-bg-mid: #0a1122;
+  --color-glass: rgba(16, 22, 40, 0.45);
+  --color-glass-border: rgba(212, 175, 55, 0.15);
+
+  --font-cinzel: var(--font-cinzel);
+  --font-outfit: var(--font-outfit);
+  --font-yatra: var(--font-yatra);
+}
+
+:root {
+  --background: #03050a;
+  --foreground: #E2E8F0;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.glass-panel {
+  background: var(--color-glass);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--color-glass-border);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.cosmic-bg {
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle at 50% 30%, var(--color-bg-mid) 0%, var(--color-bg-deep) 100%);
+  z-index: -3;
+}
+
+/* Custom Scrollbar for global dark theme */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(212, 175, 55, 0.2);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(212, 175, 55, 0.4);
+}

@@ -1,0 +1,1872 @@
+
+> frontend@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.1 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://10.78.85.30:3000
+✓ Ready in 416ms
+
+ GET / 200 in 312ms (next.js: 160ms, application-code: 152ms)
+ GET / 200 in 70ms (next.js: 11ms, application-code: 59ms)
+Error: Route "/library" used `searchParams.book`. `searchParams` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at LibraryPage (src/app/library/page.tsx:14:37)
+  12 |
+  13 | export default function LibraryPage({ searchParams }: { searchParams: { book?: string, par...
+> 14 |   const selectedBook = searchParams.book === "mahabharata" ? "mahabharata" : "gita";
+     |                                     ^
+  15 |   const selectedChapter = searchParams.chapter ? parseInt(searchParams.chapter, 10) : 1;
+  16 |   const selectedParva = searchParams.parva ? parseInt(searchParams.parva, 10) : 1;
+  17 |
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 683ms (next.js: 38ms, application-code: 645ms)
+Error: Route "/library" used `searchParams.book`. `searchParams` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at LibraryPage (src/app/library/page.tsx:14:37)
+  12 |
+  13 | export default function LibraryPage({ searchParams }: { searchParams: { book?: string, par...
+> 14 |   const selectedBook = searchParams.book === "mahabharata" ? "mahabharata" : "gita";
+     |                                     ^
+  15 |   const selectedChapter = searchParams.chapter ? parseInt(searchParams.chapter, 10) : 1;
+  16 |   const selectedParva = searchParams.parva ? parseInt(searchParams.parva, 10) : 1;
+  17 |
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 1154ms (next.js: 20ms, application-code: 1134ms)
+Error: Route "/library" used `searchParams.book`. `searchParams` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at LibraryPage (src/app/library/page.tsx:14:37)
+  12 |
+  13 | export default function LibraryPage({ searchParams }: { searchParams: { book?: string, par...
+> 14 |   const selectedBook = searchParams.book === "mahabharata" ? "mahabharata" : "gita";
+     |                                     ^
+  15 |   const selectedChapter = searchParams.chapter ? parseInt(searchParams.chapter, 10) : 1;
+  16 |   const selectedParva = searchParams.parva ? parseInt(searchParams.parva, 10) : 1;
+  17 |
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 1837ms (next.js: 17ms, application-code: 1821ms)
+Error: Route "/library" used `searchParams.book`. `searchParams` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at LibraryPage (src/app/library/page.tsx:14:37)
+  12 |
+  13 | export default function LibraryPage({ searchParams }: { searchParams: { book?: string, par...
+> 14 |   const selectedBook = searchParams.book === "mahabharata" ? "mahabharata" : "gita";
+     |                                     ^
+  15 |   const selectedChapter = searchParams.chapter ? parseInt(searchParams.chapter, 10) : 1;
+  16 |   const selectedParva = searchParams.parva ? parseInt(searchParams.parva, 10) : 1;
+  17 |
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 2.7s (next.js: 63ms, application-code: 2.6s)
+Error: Route "/library" used `searchParams.book`. `searchParams` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at LibraryPage (src/app/library/page.tsx:14:37)
+  12 |
+  13 | export default function LibraryPage({ searchParams }: { searchParams: { book?: string, par...
+> 14 |   const selectedBook = searchParams.book === "mahabharata" ? "mahabharata" : "gita";
+     |                                     ^
+  15 |   const selectedChapter = searchParams.chapter ? parseInt(searchParams.chapter, 10) : 1;
+  16 |   const selectedParva = searchParams.parva ? parseInt(searchParams.parva, 10) : 1;
+  17 |
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 1712ms (next.js: 43ms, application-code: 1669ms)
+ GET / 200 in 84ms (next.js: 29ms, application-code: 55ms)
+Error: Route "/library" used `searchParams.book`. `searchParams` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at LibraryPage (src/app/library/page.tsx:14:37)
+  12 |
+  13 | export default function LibraryPage({ searchParams }: { searchParams: { book?: string, par...
+> 14 |   const selectedBook = searchParams.book === "mahabharata" ? "mahabharata" : "gita";
+     |                                     ^
+  15 |   const selectedChapter = searchParams.chapter ? parseInt(searchParams.chapter, 10) : 1;
+  16 |   const selectedParva = searchParams.parva ? parseInt(searchParams.parva, 10) : 1;
+  17 |
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 1787ms (next.js: 53ms, application-code: 1734ms)
+Error: Route "/library" used `searchParams.book`. `searchParams` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at LibraryPage (src/app/library/page.tsx:14:37)
+  12 |
+  13 | export default function LibraryPage({ searchParams }: { searchParams: { book?: string, par...
+> 14 |   const selectedBook = searchParams.book === "mahabharata" ? "mahabharata" : "gita";
+     |                                     ^
+  15 |   const selectedChapter = searchParams.chapter ? parseInt(searchParams.chapter, 10) : 1;
+  16 |   const selectedParva = searchParams.parva ? parseInt(searchParams.parva, 10) : 1;
+  17 |
+ GET /library?book=mahabharata 200 in 808ms (next.js: 31ms, application-code: 777ms)
+ GET /library?book=mahabharata 200 in 714ms (next.js: 15ms, application-code: 699ms)
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 376ms (next.js: 19ms, application-code: 357ms)
+ GET /library?book=gita&chapter=1 200 in 392ms (next.js: 15ms, application-code: 378ms)
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 437ms (next.js: 25ms, application-code: 412ms)
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 1025ms (next.js: 22ms, application-code: 1003ms)
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 383ms (next.js: 8ms, application-code: 375ms)
+Failed to proxy http://127.0.0.1:5001/translate-verse Error: connect ECONNREFUSED 127.0.0.1:5001
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:5001) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 5001
+}
+Error: connect ECONNREFUSED 127.0.0.1:5001
+    at <unknown> (Error: connect ECONNREFUSED 127.0.0.1:5001) {
+  errno: -61,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 5001
+}
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 318ms (next.js: 44ms, application-code: 274ms)
+ GET /library?book=mahabharata&parva=1&chapter=2 200 in 62ms (next.js: 5ms, application-code: 57ms)
+ GET /library?book=mahabharata&parva=1&chapter=2 200 in 83ms (next.js: 4ms, application-code: 78ms)
+ GET /library 200 in 552ms (next.js: 36ms, application-code: 515ms)
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 74ms (next.js: 15ms, application-code: 59ms)
+✓ Compiled in 62ms
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 157ms (next.js: 12ms, application-code: 145ms)
+ GET /library?book=mahabharata&parva=1&chapter=2 200 in 161ms (next.js: 34ms, application-code: 127ms)
+ GET /library?book=gita&chapter=2 200 in 935ms (next.js: 9ms, application-code: 926ms)
+ GET / 200 in 63ms (next.js: 21ms, application-code: 42ms)
+ GET /library 200 in 37ms (next.js: 13ms, application-code: 24ms)
+ GET /library?book=gita&chapter=1 200 in 406ms (next.js: 4ms, application-code: 402ms)
+✓ Compiled in 58ms
+ GET /library?book=gita&chapter=1 200 in 445ms (next.js: 13ms, application-code: 432ms)
+✓ Compiled in 155ms
+ GET /library?book=gita&chapter=1 200 in 828ms (next.js: 86ms, application-code: 742ms)
+ GET /library?book=gita&chapter=1 200 in 365ms (next.js: 1938µs, application-code: 363ms)
+✓ Compiled in 87ms
+✓ Compiled in 154ms
+ GET /library?book=gita&chapter=1 200 in 450ms (next.js: 5ms, application-code: 445ms)
+ GET /library?book=gita&chapter=1 200 in 1028ms (next.js: 139ms, application-code: 889ms)
+ GET /library?book=gita&chapter=2 200 in 1527ms (next.js: 104ms, application-code: 1424ms)
+[browser] Error: TTS Failed
+    at handleSpeak (src/components/VerseCard.tsx:48:26)
+  46 |       });
+  47 |
+> 48 |       if (!res.ok) throw new Error("TTS Failed");
+     |                          ^
+  49 |
+  50 |       const blob = await res.blob();
+  51 |       const url = URL.createObjectURL(blob); (src/components/VerseCard.tsx:61:15)
+[browser] Error: TTS Failed
+    at handleSpeak (src/components/VerseCard.tsx:48:26)
+  46 |       });
+  47 |
+> 48 |       if (!res.ok) throw new Error("TTS Failed");
+     |                          ^
+  49 |
+  50 |       const blob = await res.blob();
+  51 |       const url = URL.createObjectURL(blob); (src/components/VerseCard.tsx:61:15)
+ GET /library?book=gita&chapter=2 200 in 1684ms (next.js: 51ms, application-code: 1633ms)
+[browser] Error: TTS Failed
+    at handleSpeak (src/components/VerseCard.tsx:48:26)
+  46 |       });
+  47 |
+> 48 |       if (!res.ok) throw new Error("TTS Failed");
+     |                          ^
+  49 |
+  50 |       const blob = await res.blob();
+  51 |       const url = URL.createObjectURL(blob); (src/components/VerseCard.tsx:61:15)
+ GET /library?book=gita&chapter=2 200 in 1641ms (next.js: 28ms, application-code: 1613ms)
+[browser] Error: TTS Failed
+    at handleSpeak (src/components/VerseCard.tsx:48:26)
+  46 |       });
+  47 |
+> 48 |       if (!res.ok) throw new Error("TTS Failed");
+     |                          ^
+  49 |
+  50 |       const blob = await res.blob();
+  51 |       const url = URL.createObjectURL(blob); (src/components/VerseCard.tsx:61:15)
+✓ Compiled in 148ms
+✓ Compiled in 110ms
+✓ Compiled in 186ms
+✓ Compiled in 303ms
+ GET /library 200 in 760ms (next.js: 223ms, application-code: 538ms)
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/library" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" className="cinzel_b99...">
+                          <body
++                           className="antialiased font-outfit min-h-screen text-foreground relative selection:bg-gold..."
+-                           className="antialiased font-outfit min-h-screen text-foreground relative selection:bg-gold..."
+                          >
+                  ...
+ 
+ GET /library?book=ramayana&kanda=1&chapter=1 200 in 197ms (next.js: 6ms, application-code: 191ms)
+ GET /library?book=ramayana&kanda=1&chapter=2 200 in 147ms (next.js: 35ms, application-code: 112ms)
+ GET /library?book=ramayana&kanda=1&chapter=3 200 in 36ms (next.js: 6ms, application-code: 30ms)
+ GET /library?book=ramayana&kanda=1&chapter=4 200 in 39ms (next.js: 7ms, application-code: 32ms)
+ GET /library?book=ramayana&kanda=1&chapter=5 200 in 34ms (next.js: 5ms, application-code: 28ms)
+ GET /library?book=ramayana&kanda=1&chapter=6 200 in 32ms (next.js: 4ms, application-code: 28ms)
+ GET /library?book=ramayana&kanda=1&chapter=7 200 in 32ms (next.js: 5ms, application-code: 27ms)
+ GET /library?book=ramayana&kanda=1&chapter=8 200 in 39ms (next.js: 8ms, application-code: 31ms)
+ GET /library?book=ramayana&kanda=1&chapter=9 200 in 43ms (next.js: 7ms, application-code: 36ms)
+ GET /library?book=ramayana&kanda=1&chapter=9 200 in 105ms (next.js: 5ms, application-code: 99ms)
+ GET / 200 in 46ms (next.js: 29ms, application-code: 18ms)
+ GET /library 200 in 33ms (next.js: 7ms, application-code: 26ms)
+ GET /library 200 in 376ms (next.js: 191ms, application-code: 185ms)
+ GET /library 200 in 120ms (next.js: 2ms, application-code: 118ms)
+ GET /library 200 in 85ms (next.js: 3ms, application-code: 83ms)
+ GET /library 200 in 57ms (next.js: 3ms, application-code: 54ms)
+ GET /library 200 in 32ms (next.js: 3ms, application-code: 29ms)
+[browser] Image with src "/images/bg_gita.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/bg_mahabharata.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+ GET /library 200 in 516ms (next.js: 59ms, application-code: 457ms)
+[browser] Image with src "/images/bg_gita.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/bg_mahabharata.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/bg_gita.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+ GET /library 200 in 112ms (next.js: 25ms, application-code: 87ms)
+[browser] Image with src "/images/bg_gita.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/bg_mahabharata.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/bg_gita.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+ GET /library 200 in 51ms (next.js: 5ms, application-code: 46ms)
+ GET /library 200 in 23ms (next.js: 1313µs, application-code: 21ms)
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 720ms (next.js: 16ms, application-code: 703ms)
+[browser] Error: TTS Failed
+    at handleSpeak (src/components/VerseCard.tsx:48:26)
+  46 |       });
+  47 |
+> 48 |       if (!res.ok) throw new Error("TTS Failed");
+     |                          ^
+  49 |
+  50 |       const blob = await res.blob();
+  51 |       const url = URL.createObjectURL(blob); (src/components/VerseCard.tsx:61:15)
+Failed to proxy http://127.0.0.1:5001/tts Error: socket hang up
+    at ignore-listed frames {
+  code: 'ECONNRESET'
+}
+Error: socket hang up
+    at ignore-listed frames {
+  code: 'ECONNRESET'
+}
+[browser] Error: TTS Failed
+    at handleSpeak (src/components/VerseCard.tsx:48:26)
+  46 |       });
+  47 |
+> 48 |       if (!res.ok) throw new Error("TTS Failed");
+     |                          ^
+  49 |
+  50 |       const blob = await res.blob();
+  51 |       const url = URL.createObjectURL(blob); (src/components/VerseCard.tsx:61:15)
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 316ms (next.js: 11ms, application-code: 305ms)
+Failed to proxy http://127.0.0.1:5001/tts Error: socket hang up
+    at ignore-listed frames {
+  code: 'ECONNRESET'
+}
+Error: socket hang up
+    at ignore-listed frames {
+  code: 'ECONNRESET'
+}
+[browser] Error: TTS Failed
+    at handleSpeak (src/components/VerseCard.tsx:48:26)
+  46 |       });
+  47 |
+> 48 |       if (!res.ok) throw new Error("TTS Failed");
+     |                          ^
+  49 |
+  50 |       const blob = await res.blob();
+  51 |       const url = URL.createObjectURL(blob); (src/components/VerseCard.tsx:61:15)
+✓ Compiled in 307ms
+⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /library 200 in 171ms (next.js: 18ms, application-code: 153ms)
+ GET /library 200 in 1197ms (next.js: 381ms, application-code: 815ms)
+ GET /library 200 in 241ms (next.js: 12ms, application-code: 229ms)
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 1399ms (next.js: 321ms, application-code: 1078ms)
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 413ms (next.js: 3ms, application-code: 411ms)
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 326ms (next.js: 20ms, application-code: 306ms)
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 292ms (next.js: 5ms, application-code: 287ms)
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 324ms (next.js: 3ms, application-code: 321ms)
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 288ms (next.js: 2ms, application-code: 285ms)
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 283ms (next.js: 3ms, application-code: 281ms)
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 294ms (next.js: 3ms, application-code: 290ms)
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 249ms (next.js: 3ms, application-code: 246ms)
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 216ms (next.js: 2ms, application-code: 214ms)
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 198ms (next.js: 2ms, application-code: 196ms)
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 168ms (next.js: 3ms, application-code: 165ms)
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 108ms (next.js: 2ms, application-code: 106ms)
+[browser] Image with src "/images/bg_gita.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/bg_mahabharata.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 329ms (next.js: 27ms, application-code: 302ms)
+ POST /api/tts 200 in 72s (next.js: 404ms, application-code: 71s)
+✓ Compiled in 231ms
+ GET / 200 in 381ms (next.js: 147ms, application-code: 234ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__fdc9aaa4_955a_4929_bdd8_21c09334f32d__1 404 in 308ms (next.js: 174ms, application-code: 134ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__b32ac12a_ea2c_4a0c_9734_ff401cd093e6__0 404 in 317ms (next.js: 194ms, application-code: 123ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__18e3b786_e874_4dfa_865d_6f4be69bf748__2 404 in 307ms (next.js: 145ms, application-code: 163ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__61b43f07_b841_4cf2_bd82_b6b8a4a585bc__3 404 in 75ms (next.js: 4ms, application-code: 70ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__0c33e3a6_a6bf_4074_ac90_eedbb654a2c6__4 404 in 74ms (next.js: 23ms, application-code: 50ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__65d1c667_023d_4dc3_9e10_0340c4d26887__5 404 in 73ms (next.js: 40ms, application-code: 33ms)
+[browser] [locator-js] React instance (react-dom v19.3.0-canary-3f0b9e61-20260317) is not supported (chrome-extension://npbfdllefekhdplbkdigpncggmojpefi/hook.bundle.js:1:27759)
+[browser] [locatorjs]: ok (chrome-extension://npbfdllefekhdplbkdigpncggmojpefi/hook.bundle.js:1:36200)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__ee1ac094_0b37_428a_b42e_f04c2c053619__0 404 in 91ms (next.js: 4ms, application-code: 88ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__5061ffb4_2df6_4bc2_8b4d_b736c2077035__1 404 in 67ms (next.js: 5ms, application-code: 62ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__9910761e_e0e3_4bc0_9d29_0b3f350586c7__2 404 in 42ms (next.js: 6ms, application-code: 36ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__9d195735_71b1_4702_84cc_d595251707f4__0 404 in 190ms (next.js: 5ms, application-code: 186ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__18ed8d59_86da_49a8_afab_f4d65c1c8d4c__1 404 in 166ms (next.js: 7ms, application-code: 159ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__04af1eed_cb82_4058_b421_9983ccd9a2eb__2 404 in 162ms (next.js: 29ms, application-code: 133ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__4b3ed19d_2d26_4ef7_9d3f_63815573ee9b__0 404 in 162ms (next.js: 4ms, application-code: 157ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__824ac087_d60a_48da_afde_4a33cca60a20__1 404 in 184ms (next.js: 27ms, application-code: 157ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__af5fa438_7458_41ed_a614_d194ea04e4ac__2 404 in 184ms (next.js: 38ms, application-code: 146ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__0347e824_b415_4f2a_8f52_7d2c26257e52__0 404 in 191ms (next.js: 4ms, application-code: 187ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__ea6d5967_610a_43f5_8e83_a13f17c3bbad__1 404 in 169ms (next.js: 6ms, application-code: 163ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__72e77b9e_9979_4d60_93c0_9df4369cd584__2 404 in 167ms (next.js: 32ms, application-code: 135ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__339d971f_8d25_4c59_8196_095e52f4c901__0 404 in 223ms (next.js: 7ms, application-code: 216ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__762abd5e_6037_4a96_8704_01b007ce92c8__1 404 in 223ms (next.js: 25ms, application-code: 198ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__30479c4a_8726_458e_98d1_f1331f3a3971__2 404 in 235ms (next.js: 63ms, application-code: 172ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__ea9d8289_85e5_450c_b7e4_c87fc7653cb4__0 404 in 169ms (next.js: 25ms, application-code: 144ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__5ce39ea6_9218_4950_ac56_b411938db9e4__1 404 in 171ms (next.js: 59ms, application-code: 113ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__a5ac8f1d_c4a6_4f32_81c1_a68a3a4d3f0d__2 404 in 171ms (next.js: 78ms, application-code: 93ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f8cc650a_1f10_4e2f_92c1_4ef32a9bdc86__0 404 in 123ms (next.js: 4ms, application-code: 119ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__5f1630de_fd65_43d5_afe5_bc34eaee5943__1 404 in 178ms (next.js: 6ms, application-code: 172ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__e90e3d04_c79d_41a9_a954_772dbe990513__2 404 in 137ms (next.js: 11ms, application-code: 126ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__05684a72_974e_42ea_b1c2_6f39f999048c__1 404 in 203ms (next.js: 24ms, application-code: 178ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__81a61a56_1e74_4297_9919_b3e10ce6a674__0 404 in 205ms (next.js: 10ms, application-code: 195ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__8c4c4b99_7fd7_447b_a3af_5c308a2edc34__2 404 in 206ms (next.js: 50ms, application-code: 156ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__5b4925ca_55ae_4297_9fed_369b04b5e4d7__0 404 in 182ms (next.js: 7ms, application-code: 175ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__0f057bcc_944b_4c7d_b8a9_3fbfa538d535__1 404 in 219ms (next.js: 36ms, application-code: 183ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__17bebcc8_b602_400e_bad7_f2d063dbc19c__2 404 in 168ms (next.js: 7ms, application-code: 162ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__173f533c_c06b_4e93_bb0e_bdd7dcdc3413__0 404 in 130ms (next.js: 5ms, application-code: 124ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f2a1dd36_0df0_4c04_8d1b_0df625d9cbce__1 404 in 174ms (next.js: 28ms, application-code: 146ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__98ff836d_9aa9_4ea1_add1_ee9d1d14d80d__2 404 in 255ms (next.js: 13ms, application-code: 242ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__7bc83b58_6c49_4ad0_b880_e35c44d90d1a__0 404 in 265ms (next.js: 10ms, application-code: 256ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__9d3106ee_8665_47d3_987a_1c67c4ce6f9e__1 404 in 261ms (next.js: 105ms, application-code: 155ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__310fea89_3a96_4aad_8fd9_f19df869bf3d__2 404 in 162ms (next.js: 48ms, application-code: 115ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__36086db0_79bb_404a_9b0f_9a10d1d7dae8__1 404 in 122ms (next.js: 19ms, application-code: 103ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__82b3e092_3778_41b9_8f79_e1586c1c14bc__0 404 in 124ms (next.js: 5ms, application-code: 118ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__0f59a65d_42fc_4b78_820e_152991a6bdc7__2 404 in 138ms (next.js: 49ms, application-code: 90ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__a4ae5ad0_3dd3_4386_baa0_1e93e503a809__0 404 in 317ms (next.js: 3ms, application-code: 314ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__8c545a4e_920d_4874_8d72_7807ee576c1b__1 404 in 297ms (next.js: 6ms, application-code: 291ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__39c1d8d3_4293_4da7_8745_067d4af43d74__2 404 in 298ms (next.js: 21ms, application-code: 277ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__e5e6dcd6_db60_4f05_81eb_1929f0393ed6__0 404 in 246ms (next.js: 7ms, application-code: 239ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__05dcc505_bf29_4165_a72d_7404ab2a2628__1 404 in 248ms (next.js: 16ms, application-code: 232ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__4c55fe68_25ae_41ad_a2ba_e0f9af15cede__2 404 in 311ms (next.js: 43ms, application-code: 268ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__b40b7d04_86cf_4142_a02d_c8e15afc040c__0 404 in 218ms (next.js: 17ms, application-code: 201ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__5fc510d9_87e3_4b72_8ddc_43d3f86d3585__1 404 in 218ms (next.js: 44ms, application-code: 174ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__fa7a89b5_60a8_4659_9207_04405b636a07__2 404 in 216ms (next.js: 75ms, application-code: 142ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__038b32d5_be25_4177_8b73_244c45e412c0__0 404 in 128ms (next.js: 7ms, application-code: 121ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__da4c09d0_49d7_4878_8f07_62dc60bd3667__1 404 in 148ms (next.js: 22ms, application-code: 126ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__61f3ab4b_ba68_4ec0_8d92_0c3a06c1d107__2 404 in 169ms (next.js: 60ms, application-code: 109ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__ebf195ca_2d3f_4c96_a485_3edcd3057977__2 404 in 174ms (next.js: 61ms, application-code: 113ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__44564124_1d56_4a25_9f6e_32b243931e1c__1 404 in 180ms (next.js: 10ms, application-code: 171ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__deb18007_9cdf_42a9_b6c8_d20d7400f61a__0 404 in 234ms (next.js: 34ms, application-code: 200ms)
+ GET /library 200 in 54ms (next.js: 23ms, application-code: 31ms)
+[browser] Image with src "/images/bg_mahabharata.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[browser] Image with src "/images/bg_gita.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+ GET /library?book=ramayana&kanda=1&chapter=1 200 in 121ms (next.js: 7ms, application-code: 114ms)
+ POST /api/tts 200 in 9.2s (next.js: 8ms, application-code: 9.2s)
+✓ Compiled in 115ms
+ GET /library?book=ramayana&kanda=1&chapter=2 200 in 85ms (next.js: 21ms, application-code: 65ms)
+ GET /library?book=ramayana&kanda=1&chapter=3 200 in 36ms (next.js: 5ms, application-code: 32ms)
+ GET /library?book=ramayana&kanda=1&chapter=4 200 in 31ms (next.js: 4ms, application-code: 27ms)
+ GET /library?book=ramayana&kanda=1&chapter=5 200 in 36ms (next.js: 4ms, application-code: 32ms)
+ GET /library?book=ramayana&kanda=1&chapter=6 200 in 36ms (next.js: 5ms, application-code: 31ms)
+ GET /library?book=ramayana&kanda=1&chapter=7 200 in 36ms (next.js: 5ms, application-code: 31ms)
+ GET /library?book=ramayana&kanda=1&chapter=8 200 in 34ms (next.js: 4ms, application-code: 30ms)
+ GET /library?book=ramayana&kanda=2&chapter=1 200 in 34ms (next.js: 5ms, application-code: 30ms)
+ GET / 200 in 28ms (next.js: 7ms, application-code: 21ms)
+ GET /chat 200 in 102ms (next.js: 88ms, application-code: 14ms)
+✓ Compiled in 259ms
+ GET /chat 200 in 145ms (next.js: 41ms, application-code: 103ms)
+[browser] [locator-js] React instance (react-dom v19.3.0-canary-3f0b9e61-20260317) is not supported (chrome-extension://npbfdllefekhdplbkdigpncggmojpefi/hook.bundle.js:1:27759)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__19a099e8_9be4_4ceb_845d_95d2e5e34ab5__0 404 in 140ms (next.js: 9ms, application-code: 131ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__bf5b1065_3347_46ac_8e06_b5c5f8afc6ef__1 404 in 110ms (next.js: 7ms, application-code: 103ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__ef2fa6f1_d589_4530_a752_bc8cb45f6950__2 404 in 107ms (next.js: 50ms, application-code: 57ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__e4ef88e6_64f6_4612_906a_2511853d3e77__3 404 in 113ms (next.js: 7ms, application-code: 105ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__43ce47a8_835c_46e2_b91b_9bb60e8ed57f__4 404 in 111ms (next.js: 38ms, application-code: 73ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__1d8e3d2b_a79e_45f4_8662_075eb3dda3ad__5 404 in 111ms (next.js: 53ms, application-code: 58ms)
+[browser] [locatorjs]: ok (chrome-extension://npbfdllefekhdplbkdigpncggmojpefi/hook.bundle.js:1:36200)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__7d46b6ba_ff01_44e7_a68e_ce53915d3540__0 404 in 96ms (next.js: 3ms, application-code: 93ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__6731e29b_6255_41b3_8682_0b30e61b35c8__1 404 in 126ms (next.js: 6ms, application-code: 120ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__8d58a01c_4b82_42e9_8be5_e453a910c1c1__2 404 in 128ms (next.js: 31ms, application-code: 97ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__de18c35b_8f68_40fb_8a93_22d8a428465f__0 404 in 170ms (next.js: 5ms, application-code: 165ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__1b703185_1e0b_42d1_a0df_13516976ca39__1 404 in 170ms (next.js: 30ms, application-code: 140ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__abac0cbb_28e2_4c78_9655_5a191a44ff80__2 404 in 121ms (next.js: 11ms, application-code: 110ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__89c04d46_1145_4841_b2e5_e6894d7e4f09__0 404 in 135ms (next.js: 3ms, application-code: 131ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__4d8491f7_f451_4722_af4e_d26554982f55__1 404 in 140ms (next.js: 24ms, application-code: 115ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f46fc05f_9725_451c_a5ea_b64145746f59__2 404 in 114ms (next.js: 6ms, application-code: 108ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__00c5d134_da37_4968_abf5_37b81a1ec5d9__0 404 in 205ms (next.js: 4ms, application-code: 202ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__1282c44c_9b5d_4401_af59_c68cc0382b1d__1 404 in 206ms (next.js: 20ms, application-code: 186ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__899cb033_4411_490c_bae6_d3b40d972010__2 404 in 170ms (next.js: 11ms, application-code: 159ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__df33d702_e919_4c52_8134_2ce3ec8d3d18__0 404 in 184ms (next.js: 3ms, application-code: 181ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__9314c31a_8929_4657_ae3e_98be9c7bef75__1 404 in 187ms (next.js: 44ms, application-code: 143ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__5f4f590d_9072_488a_8984_6a77bf147abd__2 404 in 126ms (next.js: 11ms, application-code: 115ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__a70c2df7_99a5_460d_b9c4_f937dbe88314__0 404 in 94ms (next.js: 4ms, application-code: 90ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__79b02bac_f111_4991_95d6_6bb2897f36a4__1 404 in 95ms (next.js: 26ms, application-code: 69ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__53223fa1_f02e_4ed3_96e1_3656a9cfc42b__2 404 in 73ms (next.js: 27ms, application-code: 46ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__7a3c34bc_2115_4d0f_8e72_61f2ed715ef6__0 404 in 139ms (next.js: 7ms, application-code: 132ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__5c7fdcb4_baa5_4e39_bbdb_fdd07c145068__1 404 in 139ms (next.js: 30ms, application-code: 109ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__1b90dc8c_ebdc_4add_a0d2_2fd4310cd583__2 404 in 88ms (next.js: 21ms, application-code: 67ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__7f9fa84d_fc73_43a3_824d_bc4aad9db3ba__0 404 in 119ms (next.js: 8ms, application-code: 111ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__8ce8a936_af05_4795_bf57_311f5afe9fb7__1 404 in 85ms (next.js: 14ms, application-code: 72ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__5ef6cdc0_b3a5_4769_aa60_8a9f3efa8c1f__2 404 in 86ms (next.js: 41ms, application-code: 45ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__ebd2395c_b6f1_499b_916a_9b16b7486786__0 404 in 253ms (next.js: 12ms, application-code: 240ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__ab7ee203_8215_481b_b7f9_e56947ce8ee9__1 404 in 219ms (next.js: 13ms, application-code: 205ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__9941a43f_cc38_4e6f_94c1_c5e9c5c47753__2 404 in 212ms (next.js: 49ms, application-code: 164ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__98e08198_f5e6_476f_bbfc_1d862b58af8f__0 404 in 165ms (next.js: 7ms, application-code: 158ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__d72b96c1_e028_42ff_8dc0_82ecff3da5a9__1 404 in 194ms (next.js: 30ms, application-code: 165ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__4979b99e_979c_48f2_9392_c71a18d403da__2 404 in 147ms (next.js: 12ms, application-code: 136ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__37cda9e6_b000_4b49_80a4_56d7f654e326__0 404 in 204ms (next.js: 3ms, application-code: 201ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__901c03bd_111e_41ca_8f6e_5dff38d5d263__1 404 in 185ms (next.js: 8ms, application-code: 177ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__8d464c60_a39c_49ee_a8ac_cc3e1eb4a2a7__2 404 in 180ms (next.js: 28ms, application-code: 152ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f7a20d83_202b_4778_8b45_6ffa41d62807__0 404 in 147ms (next.js: 7ms, application-code: 140ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__dc5d48f2_bd9f_4f6b_a3b3_ec40744ab86c__1 404 in 187ms (next.js: 33ms, application-code: 154ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__c4f51da6_3098_4b1c_af57_0c58dee16b3d__2 404 in 162ms (next.js: 31ms, application-code: 131ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__0dae5d17_b572_47bf_863b_5c55fb4f727e__0 404 in 233ms (next.js: 4ms, application-code: 228ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__b87e006c_b4e6_48f5_9a7b_ae62019211b1__1 404 in 233ms (next.js: 35ms, application-code: 197ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__e29136e9_e988_47c9_908e_c9af48015cf2__2 404 in 162ms (next.js: 7ms, application-code: 155ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__fdd9498e_4313_417d_81d7_b5fe434563cc__0 404 in 175ms (next.js: 13ms, application-code: 163ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__4a140358_4aba_483d_8055_a0adea25cda1__1 404 in 212ms (next.js: 41ms, application-code: 171ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__c1229f3f_a193_46e9_b0a7_ec9300b4c925__2 404 in 180ms (next.js: 27ms, application-code: 153ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__509abbb3_a3b3_464d_b526_51bb8bbcbd75__0 404 in 140ms (next.js: 12ms, application-code: 128ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__85b777ba_61c6_41e2_b134_e3d347c0f65b__1 404 in 137ms (next.js: 40ms, application-code: 97ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__db82c1f2_07c3_48f6_8bc3_e8e20926ca6f__2 404 in 94ms (next.js: 8ms, application-code: 87ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__c6fd80a7_9586_4132_9454_4068773c687e__0 404 in 210ms (next.js: 6ms, application-code: 204ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f6993a4b_a89e_4a62_985f_515cb201c4d5__1 404 in 181ms (next.js: 16ms, application-code: 166ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__4ac1c31b_cee9_4008_a6b0_0ac576c2a8cf__2 404 in 179ms (next.js: 31ms, application-code: 148ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__a5ef79c9_f3fc_41a3_bfb1_ffc657526575__0 404 in 172ms (next.js: 48ms, application-code: 124ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__b381a633_7e4b_4a25_a6e2_fe29f8135c0c__1 404 in 172ms (next.js: 60ms, application-code: 111ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__8cd74891_76ed_4d73_b4b9_c3833d78d7f0__2 404 in 140ms (next.js: 18ms, application-code: 121ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__fe274706_68b8_452f_9fbd_cdd72454ebbc__0 404 in 223ms (next.js: 5ms, application-code: 218ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__1faaf38a_04f5_4893_900b_831a0df789c8__1 404 in 195ms (next.js: 7ms, application-code: 187ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__b4583dc0_ff59_4c7e_a71f_92045a51d858__2 404 in 192ms (next.js: 36ms, application-code: 156ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__4fc14738_18ed_4282_838b_5a3e40f253bf__1 404 in 161ms (next.js: 46ms, application-code: 115ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f99f65e3_1ddd_4194_bdfa_01f10b3caec7__0 404 in 164ms (next.js: 35ms, application-code: 129ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__37a1b7bc_df40_418f_82b2_d0ac97c9b6f5__2 404 in 139ms (next.js: 20ms, application-code: 119ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__a19f8069_1eec_4fcb_9ea5_a6c04bdc5fcb__1 404 in 310ms (next.js: 31ms, application-code: 279ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__457e9b28_0da9_4b59_86f7_59ef3959cc90__0 404 in 316ms (next.js: 6ms, application-code: 310ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__a0f9b9a8_dc21_47bf_a27c_bf2361cde2bb__1 404 in 231ms (next.js: 193ms, application-code: 38ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__60a11b66_fcd8_4788_9f49_84f63fdfb0cd__0 404 in 235ms (next.js: 103ms, application-code: 132ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__90a22400_b726_48d8_993d_ca76f28ec3b0__2 404 in 243ms (next.js: 15ms, application-code: 228ms)
+ GET / 200 in 100ms (next.js: 29ms, application-code: 71ms)
+[browser] [locator-js] React instance (react-dom v19.3.0-canary-3f0b9e61-20260317) is not supported (chrome-extension://npbfdllefekhdplbkdigpncggmojpefi/hook.bundle.js:1:27759)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__15463e3b_1c0e_4821_ab5e_89c3f5900963__0 404 in 110ms (next.js: 8ms, application-code: 102ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__bb671ba6_6c3a_4fa8_a309_31855b1b3d08__1 404 in 75ms (next.js: 9ms, application-code: 66ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__e5145dd1_484b_4f54_b569_b7477ff391f5__2 404 in 72ms (next.js: 27ms, application-code: 45ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__c048895a_1e75_4450_9698_6c91c14d9df4__3 404 in 77ms (next.js: 4ms, application-code: 73ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__a47edfde_b3e6_4300_a0c7_b32d45bb2761__4 404 in 53ms (next.js: 4ms, application-code: 49ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__424c0bc1_2d6a_4009_b0fb_567c9caa6a2a__5 404 in 30ms (next.js: 4ms, application-code: 26ms)
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" className="cinzel_b99...">
+                          <body
+                            className="antialiased font-outfit min-h-screen text-foreground relative selection:bg-gold..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+ 
+[browser] [locatorjs]: ok (chrome-extension://npbfdllefekhdplbkdigpncggmojpefi/hook.bundle.js:1:36200)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__5eea2aea_9882_4779_88bd_9d7c2f2c326b__0 404 in 412ms (next.js: 4ms, application-code: 408ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__0bffe16f_fa6c_4c26_accc_3caeb7245dfb__1 404 in 393ms (next.js: 9ms, application-code: 384ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__33d327f9_eb89_4bfa_b7e4_d62b7c2b07fc__2 404 in 388ms (next.js: 24ms, application-code: 363ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__75709279_c075_4b95_8125_e543af83dd92__0 404 in 399ms (next.js: 9ms, application-code: 390ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__7eedfe6a_04e6_403c_9fb4_b87fef24b888__1 404 in 402ms (next.js: 32ms, application-code: 370ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__eb125a4f_573d_4597_948c_da7740559bd0__2 404 in 455ms (next.js: 61ms, application-code: 393ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__dc0a6831_5b66_4a74_83a1_3e00b661e0d0__0 404 in 321ms (next.js: 5ms, application-code: 316ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__c3af0753_19d8_4e32_aaeb_f4ebd92ddcd4__1 404 in 325ms (next.js: 30ms, application-code: 294ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__cc839a6c_edbb_4073_abf8_36f7ffe14f54__2 404 in 253ms (next.js: 24ms, application-code: 229ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__b9207121_eb5f_4a64_8a28_b29209b22ec3__1 404 in 212ms (next.js: 54ms, application-code: 159ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__af62c13a_f8cf_43ef_bfd6_66cce5348db0__0 404 in 216ms (next.js: 14ms, application-code: 203ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__32d6d5b7_4b27_4275_afe7_b4018102d353__2 404 in 232ms (next.js: 92ms, application-code: 140ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__09eae10d_7ab2_44f2_b013_b0642ca3834b__0 404 in 187ms (next.js: 4ms, application-code: 183ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__22b7f7cf_f4d9_4731_b9bb_4fd0679f3fe7__1 404 in 190ms (next.js: 26ms, application-code: 164ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__120d0e25_3ec4_4ee7_a70f_5befa288bb64__2 404 in 151ms (next.js: 15ms, application-code: 136ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__d0a84228_56ae_4672_908c_df3071f3f645__0 404 in 110ms (next.js: 6ms, application-code: 104ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__c1807c26_38d0_44e4_93ed_8e1b45b5005c__1 404 in 110ms (next.js: 15ms, application-code: 94ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__eddf8c1b_82e7_4188_848b_ea006dc3c901__2 404 in 113ms (next.js: 52ms, application-code: 60ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__4b6a43ae_1706_4548_a769_56b5cc6368a6__0 404 in 263ms (next.js: 15ms, application-code: 248ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__b7400574_bfae_44a3_9f3a_778e0f0cb8f8__1 404 in 263ms (next.js: 41ms, application-code: 222ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__362bd7b9_f3a3_43ad_9ae9_68e8436074a5__2 404 in 176ms (next.js: 16ms, application-code: 160ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__64afe8ed_5dc2_446e_b42f_3a3d16707c66__0 404 in 220ms (next.js: 6ms, application-code: 214ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__44c771cb_c0aa_450d_9646_ba9c7b7326ba__1 404 in 220ms (next.js: 17ms, application-code: 203ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__d8d25ad1_620a_4e5a_ad18_4a7a0dfcb9b1__2 404 in 221ms (next.js: 68ms, application-code: 153ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__2748b29e_2032_4a9f_b330_f0280dbc334e__0 404 in 183ms (next.js: 4ms, application-code: 179ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__ebb4d6af_0e83_43fa_9f5e_18838aa37958__1 404 in 186ms (next.js: 9ms, application-code: 177ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__0b2802ba_8066_4b2a_8604_09444cfab74f__2 404 in 187ms (next.js: 24ms, application-code: 163ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__8e07441b_5487_42bc_83ec_069b1cc452e4__0 404 in 231ms (next.js: 9ms, application-code: 222ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__1f125f84_d182_48c1_9bda_4163faafdfc9__1 404 in 230ms (next.js: 31ms, application-code: 199ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__bf5c8e83_6743_4ad9_ab46_1da741d1cd3b__2 404 in 167ms (next.js: 11ms, application-code: 156ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f65fcad7_ad01_421b_951e_d56de434cac0__1 404 in 234ms (next.js: 18ms, application-code: 216ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__57b26417_f7aa_4099_9255_5daf3cac293f__0 404 in 237ms (next.js: 9ms, application-code: 228ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f109c4ec_f11d_4bfe_9e14_391f36a73591__2 404 in 242ms (next.js: 40ms, application-code: 202ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__bde5d2c6_0021_4c9f_bda2_fd42e71fb053__0 404 in 247ms (next.js: 4ms, application-code: 243ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__a50ead97_9b3d_4f39_8c4f_44471abae1ac__1 404 in 224ms (next.js: 7ms, application-code: 217ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__6cabe937_da3f_436b_b0b0_061f8de4791b__2 404 in 224ms (next.js: 46ms, application-code: 178ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__5fbc21b0_2d51_4efa_b37f_e3fef00cecdf__0 404 in 181ms (next.js: 10ms, application-code: 170ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__dbb0144c_fd3c_4b97_92ef_d1d06a496db3__1 404 in 181ms (next.js: 24ms, application-code: 157ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__78ad6e16_63ef_49b8_bc31_5b0994e3336f__2 404 in 203ms (next.js: 62ms, application-code: 141ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__2bfcc31d_2748_4b04_be47_de5ae02388f6__0 404 in 249ms (next.js: 6ms, application-code: 243ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__ccbd7896_451d_4d97_8e20_71dbe88ab71f__1 404 in 250ms (next.js: 17ms, application-code: 232ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__9680ed5a_7397_4fb9_bacf_a8761caeacfa__2 404 in 251ms (next.js: 62ms, application-code: 189ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__335e8fa3_f3c3_4e2c_8ab2_87224e8bd9cb__0 404 in 189ms (next.js: 6ms, application-code: 183ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__aba7f2bc_3922_44b7_81e0_1225fad4a8b9__1 404 in 189ms (next.js: 55ms, application-code: 134ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__dad307c2_90d4_4829_b3f1_b309c58800ba__2 404 in 228ms (next.js: 98ms, application-code: 129ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__2f6cc65c_98cd_49e4_8329_293bbf90d64e__2 404 in 148ms (next.js: 44ms, application-code: 104ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__1ed35729_1f71_4bbf_a325_a854b269878f__1 404 in 156ms (next.js: 10ms, application-code: 146ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__05b9393b_735d_4a53_b98a_b79c534e7850__0 404 in 184ms (next.js: 4ms, application-code: 181ms)
+[browser] [locator-js] React instance (react-dom v19.3.0-canary-3f0b9e61-20260317) is not supported (chrome-extension://npbfdllefekhdplbkdigpncggmojpefi/hook.bundle.js:1:27759)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__ef96114b_3e8f_4b4b_b0fb_92704c8a0582__0 404 in 102ms (next.js: 10ms, application-code: 92ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__5ab093cd_3556_480a_a9f2_ad53d6c8d9c2__1 404 in 59ms (next.js: 9ms, application-code: 50ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__1346c26c_7c1c_49cd_a9d5_259b435b51c1__2 404 in 57ms (next.js: 27ms, application-code: 30ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__581ee883_5092_4634_968d_163e4bc0ee87__3 404 in 84ms (next.js: 6ms, application-code: 78ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__1e877b04_1328_4ee0_ba73_1a90f30d4c62__4 404 in 60ms (next.js: 10ms, application-code: 50ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__e6449990_fd2e_42f2_91f5_d4771e0a2b78__5 404 in 59ms (next.js: 27ms, application-code: 32ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__d842319a_d5c6_47d1_bd17_b76568ddaa90__0 404 in 174ms (next.js: 3ms, application-code: 171ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__d8836979_9c6f_4e26_b2b4_4b3c6344daf6__1 404 in 146ms (next.js: 5ms, application-code: 141ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__1b93c032_51ae_405d_91a0_dea969a5b5bb__2 404 in 145ms (next.js: 24ms, application-code: 121ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__44ce6914_d1b9_4a14_be96_adfcbece568c__0 404 in 184ms (next.js: 5ms, application-code: 180ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__8bdd97e5_d02e_4d37_966a_a06ea0ec2722__1 404 in 184ms (next.js: 20ms, application-code: 164ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__c32c7d7d_8c9a_4a47_8e02_4f8da721554a__2 404 in 185ms (next.js: 30ms, application-code: 154ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__c3376d92_18f0_4503_a2c4_2c8a7950bb26__0 404 in 191ms (next.js: 5ms, application-code: 186ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__0f48baa1_896d_43b0_8649_7ea83c2fbb80__1 404 in 156ms (next.js: 13ms, application-code: 143ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__3d19ae72_ca44_4937_972c_3a506d8a0bcc__2 404 in 150ms (next.js: 26ms, application-code: 125ms)
+[browser] [locatorjs]: ok (chrome-extension://npbfdllefekhdplbkdigpncggmojpefi/hook.bundle.js:1:36200)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__6ae580f7_d2c7_4bb2_860b_867651997e3e__0 404 in 338ms (next.js: 4ms, application-code: 334ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__bde37757_92fc_4480_ab19_315e8f282f94__1 404 in 341ms (next.js: 14ms, application-code: 326ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__acc874bd_c830_4b52_8e72_efdb35bcce16__2 404 in 343ms (next.js: 24ms, application-code: 319ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f43a80db_062e_48c7_80f9_a19e1f444827__0 404 in 489ms (next.js: 4ms, application-code: 485ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__010bce19_0f75_4bde_abb9_e06db972f619__1 404 in 492ms (next.js: 28ms, application-code: 465ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__5f58586d_2e20_4a45_9b9c_502397e0e7cb__2 404 in 475ms (next.js: 85ms, application-code: 390ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__b0eabbfc_efbd_438d_b2cf_d3fb28e1d3be__0 404 in 428ms (next.js: 11ms, application-code: 417ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f5564306_8823_48c5_b265_2aec65d1c5f3__1 404 in 428ms (next.js: 49ms, application-code: 379ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__ef5ea1d2_01f5_44bf_937a_d7106a41ef0e__2 404 in 428ms (next.js: 81ms, application-code: 347ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__b98ac175_546a_4818_ac68_7b899817e08e__0 404 in 337ms (next.js: 10ms, application-code: 328ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__6df7d7a1_09ee_431e_b0f0_6818b02b743e__1 404 in 336ms (next.js: 112ms, application-code: 224ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f884c905_a6b4_4bb5_a678_e51b8f2da5e1__2 404 in 231ms (next.js: 84ms, application-code: 148ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__c07d3230_4672_4a97_8acc_38192fd28f0d__1 404 in 202ms (next.js: 20ms, application-code: 182ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__d6782cf2_6d50_4494_bc9c_b3f0481d4e49__2 404 in 202ms (next.js: 36ms, application-code: 166ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__921ae68a_79c3_4c43_ab08_c1c56787560f__0 404 in 205ms (next.js: 8ms, application-code: 198ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__0f3d18ed_734d_41cf_b2fc_04d347dd0c3c__0 404 in 222ms (next.js: 4ms, application-code: 218ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__9c91c37f_7e99_4c7a_b198_5829fa432572__1 404 in 224ms (next.js: 27ms, application-code: 197ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__a0090a97_5fd6_4f86_848c_e8a2733a1ea8__2 404 in 208ms (next.js: 55ms, application-code: 153ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__8b9ec3be_41d8_4b05_92c8_15ec3f867adb__1 404 in 199ms (next.js: 26ms, application-code: 173ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__0592174b_8fe0_4d35_9266_c007f7a066f7__0 404 in 202ms (next.js: 7ms, application-code: 194ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__e7c1cb50_8039_43e2_9224_996515e15545__2 404 in 231ms (next.js: 66ms, application-code: 165ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__b156a784_6731_4c24_bd4e_9fbb1251d6cf__0 404 in 334ms (next.js: 7ms, application-code: 327ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__4e7626ae_f0de_4f16_a29f_af034f9b8892__1 404 in 334ms (next.js: 44ms, application-code: 290ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__49773407_c7a0_4462_9a54_c82cabda4878__2 404 in 270ms (next.js: 15ms, application-code: 255ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__8ae5c229_d379_4c85_88f4_b78a84edbf43__0 404 in 279ms (next.js: 7ms, application-code: 272ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__ca163f13_ad31_4d72_ab77_f6b4dee70375__2 404 in 311ms (next.js: 120ms, application-code: 191ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__a34b1685_6f84_4be0_ba69_119aeea9772c__1 404 in 314ms (next.js: 31ms, application-code: 283ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__42287617_7b33_4ba0_88f6_d7e302efebb5__1 404 in 85ms (next.js: 24ms, application-code: 61ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__89e7218b_0a2e_4277_b04f_7112825e5538__0 404 in 86ms (next.js: 7ms, application-code: 80ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__6a57f5f6_8c70_4409_9ab2_53c526d47d9f__0 404 in 228ms (next.js: 7ms, application-code: 221ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__555ece53_5783_46f0_a7e9_fe35a551de24__1 404 in 228ms (next.js: 26ms, application-code: 202ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__0f55cc73_05a4_4f00_b0ea_771b9d1ce890__2 404 in 177ms (next.js: 10ms, application-code: 166ms)
+ GET / 200 in 132ms (next.js: 6ms, application-code: 126ms)
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+                          className="cinzel_b99a2233-module__Zreyla__variable outfit_9f4f9187-module__4LtYgq__variable..."
+-                         data-locator-client-url="chrome-extension://npbfdllefekhdplbkdigpncggmojpefi/client.bundle.js"
+                        >
+                  ...
+ 
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__2a21ec38_707d_41f3_9457_e4ef5ae191bb__0 404 in 88ms (next.js: 4ms, application-code: 84ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__117ae824_4801_4ccd_9b38_d4b02b507670__1 404 in 65ms (next.js: 6ms, application-code: 59ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__a67bcdb3_440b_44e1_bd83_58823a0e5a33__2 404 in 62ms (next.js: 29ms, application-code: 33ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__2a4b0d8c_9de4_4e87_b4f6_28e6ac2952b2__3 404 in 83ms (next.js: 5ms, application-code: 78ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__1bfc127e_e2c7_4f9c_903e_1169cc69f0f1__4 404 in 58ms (next.js: 6ms, application-code: 51ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__a1926bf3_6ae9_4243_a048_784759dbb076__5 404 in 56ms (next.js: 27ms, application-code: 29ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__99ae064f_371d_4fa9_acdb_9fbfe3db0267__0 404 in 86ms (next.js: 3ms, application-code: 83ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__750df5ac_d37b_4369_b844_403e3c4e7ce5__1 404 in 86ms (next.js: 21ms, application-code: 64ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__e99d8ef9_6ab8_48fc_8e26_fd86c244ccc9__2 404 in 67ms (next.js: 28ms, application-code: 39ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__d65eb586_4011_4c01_8fd3_0a9ea223fd74__0 404 in 164ms (next.js: 5ms, application-code: 158ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__7b25c7be_c8c4_4856_9ecf_abfdb954bef2__1 404 in 140ms (next.js: 7ms, application-code: 133ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__18cd04a4_2863_4b9f_8ab0_70787b9cc1c9__2 404 in 138ms (next.js: 25ms, application-code: 113ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__aaf21bb9_86c8_4324_823b_29f7196c171e__2 404 in 173ms (next.js: 33ms, application-code: 139ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__533a5fac_2940_4285_8c55_afd964669ff5__0 404 in 175ms (next.js: 8ms, application-code: 167ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__48d99a87_6c94_4cc3_a712_87255c07b770__1 404 in 175ms (next.js: 19ms, application-code: 156ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__0a2729f4_d7d6_4524_b790_5454fe5195ef__0 404 in 193ms (next.js: 6ms, application-code: 187ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__a986d52f_2e47_4842_810f_bde275ba417c__1 404 in 164ms (next.js: 13ms, application-code: 151ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__00d2b5d7_e178_4487_903e_cb31f8b095b8__2 404 in 164ms (next.js: 25ms, application-code: 139ms)
+[browser] [locatorjs]: loading: No valid renderers found. (chrome-extension://npbfdllefekhdplbkdigpncggmojpefi/hook.bundle.js:1:36200)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__9b8b7a39_69dd_4283_b30a_61df06e4aae6__2 404 in 221ms (next.js: 32ms, application-code: 190ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__ff9908ea_9d16_4063_af6f_17d57e8f7e4a__0 404 in 225ms (next.js: 4ms, application-code: 221ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__224bcd14_19b0_44b6_a108_85e964497d9d__1 404 in 227ms (next.js: 21ms, application-code: 207ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__62d27f13_4ff0_415d_aa88_7a08343b1aca__0 404 in 200ms (next.js: 9ms, application-code: 191ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f8338ba6_6d45_485c_baa0_36784a98910f__1 404 in 159ms (next.js: 26ms, application-code: 133ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__ff0e6777_a2c2_4024_a140_daf2d042e42e__2 404 in 156ms (next.js: 76ms, application-code: 80ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__912505e0_92e7_426d_8d31_db3dfc0069e3__0 404 in 165ms (next.js: 3ms, application-code: 162ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__0fb4c079_68e5_4538_9c76_83bb66fc5e1e__1 404 in 139ms (next.js: 14ms, application-code: 124ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__31d22a6d_b231_49ad_892b_44eb62d765df__2 404 in 97ms (next.js: 10ms, application-code: 86ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__0633c51d_810e_4494_8462_c1e882b00bf2__0 404 in 360ms (next.js: 21ms, application-code: 339ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__097b8bdc_3e06_4527_bc37_deffc710b14a__1 404 in 353ms (next.js: 54ms, application-code: 299ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__9860c4c6_09dc_4fa5_8557_5105bf7b6d6e__2 404 in 309ms (next.js: 64ms, application-code: 245ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__86690612_f75f_485e_b86a_16a9fe1346a6__0 404 in 249ms (next.js: 19ms, application-code: 230ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__6dac46a2_6c00_450b_97de_ab9fb87daa5d__2 404 in 281ms (next.js: 77ms, application-code: 204ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__e93dc808_1654_4688_9bb6_8eff3ab74a4e__1 404 in 287ms (next.js: 50ms, application-code: 237ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__6fa7d030_ab4a_47a0_bb53_7678f937637a__0 404 in 327ms (next.js: 9ms, application-code: 318ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__46a945f4_909c_4ccc_bada_3b607c185cb9__1 404 in 280ms (next.js: 17ms, application-code: 263ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__03643e9c_c308_4f32_aee4_a2bcdc5e3711__2 404 in 283ms (next.js: 43ms, application-code: 239ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__62225249_ba92_4881_b5d0_df5ba0a4be80__0 404 in 225ms (next.js: 14ms, application-code: 211ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__9006da33_b064_448a_8da1_395d00f2d977__1 404 in 221ms (next.js: 43ms, application-code: 178ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__43e97b93_1826_4a5d_bfb7_d80679797667__2 404 in 222ms (next.js: 72ms, application-code: 150ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__97e1a147_3c6c_4179_a7b3_f2a4670b1c4a__1 404 in 260ms (next.js: 16ms, application-code: 243ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f5daa1d0_70b9_4b00_bf2a_bc5262074785__0 404 in 271ms (next.js: 47ms, application-code: 224ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__85cffb66_9d48_46ff_9c1f_94f35e8871a8__2 404 in 184ms (next.js: 37ms, application-code: 147ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__3795c982_eb63_4856_93d3_cbf179e2f773__0 404 in 125ms (next.js: 8ms, application-code: 117ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__a15ac82b_12d4_4e5c_bd7e_38d868c549fb__2 404 in 231ms (next.js: 43ms, application-code: 188ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__754ff5de_116f_4a6f_855b_f20e0740f951__1 404 in 233ms (next.js: 21ms, application-code: 212ms)
+[browser] [locatorjs]: loading: No valid renderers found. (chrome-extension://npbfdllefekhdplbkdigpncggmojpefi/hook.bundle.js:1:36200)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__505504e6_e8af_4b64_bb55_90437168f617__1 404 in 128ms (next.js: 64ms, application-code: 64ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__3ba7a7c3_c2ec_4588_8ffb_264afed2444b__0 404 in 131ms (next.js: 23ms, application-code: 109ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__22ad8a0c_8d8f_4642_b78a_d917daeee60c__1 404 in 312ms (next.js: 38ms, application-code: 274ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__8a527737_0076_423c_8fbb_d8e0eaef9068__0 404 in 315ms (next.js: 10ms, application-code: 305ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__154db10d_11b0_4c57_a6b8_d33e16d60d3e__2 404 in 200ms (next.js: 15ms, application-code: 185ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__dd3c028a_a274_419d_a321_5c8f70c918ae__1 404 in 134ms (next.js: 91ms, application-code: 43ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__198543a1_9c12_4826_8512_5f4d3e36615c__0 404 in 169ms (next.js: 61ms, application-code: 107ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__1a8a9fb6_1f44_4875_873f_dad9a6984f40__2 404 in 211ms (next.js: 78ms, application-code: 133ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__3984e60e_bb99_4d55_97c7_c68ea5fc8ad2__1 404 in 214ms (next.js: 48ms, application-code: 167ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__537a23aa_a125_4643_afde_16ceb46d2647__0 404 in 219ms (next.js: 10ms, application-code: 209ms)
+[browser] [locatorjs]: loading: No valid renderers found. (chrome-extension://npbfdllefekhdplbkdigpncggmojpefi/hook.bundle.js:1:36200)
+ GET / 200 in 211ms (next.js: 18ms, application-code: 193ms)
+ GET / 200 in 320ms (next.js: 82ms, application-code: 238ms)
+ GET / 200 in 173ms (next.js: 37ms, application-code: 136ms)
+ GET / 200 in 125ms (next.js: 20ms, application-code: 105ms)
+ GET /library 200 in 393ms (next.js: 23ms, application-code: 371ms)
+ GET /library 200 in 501ms (next.js: 48ms, application-code: 453ms)
+ GET /library 200 in 574ms (next.js: 34ms, application-code: 540ms)
+ GET /library 200 in 54ms (next.js: 1902µs, application-code: 52ms)
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 933ms (next.js: 6ms, application-code: 926ms)
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 800ms (next.js: 12ms, application-code: 788ms)
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 682ms (next.js: 7ms, application-code: 676ms)
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 539ms (next.js: 11ms, application-code: 527ms)
+[browser] [locatorjs]: No valid renderers found. (chrome-extension://npbfdllefekhdplbkdigpncggmojpefi/hook.bundle.js:1:36200)
+[browser] [locatorjs]: No valid renderers found. (chrome-extension://npbfdllefekhdplbkdigpncggmojpefi/hook.bundle.js:1:36200)
+ GET / 200 in 1549ms (next.js: 9ms, application-code: 1541ms)
+ GET / 200 in 261ms (next.js: 32ms, application-code: 230ms)
+ GET / 200 in 141ms (next.js: 53ms, application-code: 88ms)
+ GET /library 200 in 1706ms (next.js: 119ms, application-code: 1587ms)
+ GET /library 200 in 1405ms (next.js: 1081ms, application-code: 324ms)
+ GET /library 200 in 210ms (next.js: 21ms, application-code: 189ms)
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 1552ms (next.js: 196ms, application-code: 1355ms)
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 369ms (next.js: 6ms, application-code: 363ms)
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 240ms (next.js: 5ms, application-code: 234ms)
+ GET /chat 200 in 88ms (next.js: 45ms, application-code: 43ms)
+✓ Compiled in 291ms
+[browser] ./src/app/page.tsx:104:7
+Expression expected
+  102 |       </div>
+  103 |       
+> 104 |       <div className="mt-auto w-full...
+      |       ^
+  105 |         <DivineFooter />
+  106 |       </div>
+  107 |     </main>
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] 
+[browser] ./src/app/page.tsx:104:7
+Expression expected
+  102 |       </div>
+  103 |       
+> 104 |       <div className="mt-auto w-full...
+      |       ^
+  105 |         <DivineFooter />
+  106 |       </div>
+  107 |     </main>
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] 
+[browser] ./src/app/page.tsx:104:7
+Expression expected
+  102 |       </div>
+  103 |       
+> 104 |       <div className="mt-auto w-full...
+      |       ^
+  105 |         <DivineFooter />
+  106 |       </div>
+  107 |     </main>
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] 
+[browser] ./src/app/page.tsx:104:7
+Expression expected
+  102 |       </div>
+  103 |       
+> 104 |       <div className="mt-auto w-full...
+      |       ^
+  105 |         <DivineFooter />
+  106 |       </div>
+  107 |     </main>
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] 
+✓ Compiled in 90ms
+ GET /chat 200 in 449ms (next.js: 360ms, application-code: 90ms)
+ GET /library 200 in 473ms (next.js: 327ms, application-code: 145ms)
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 532ms (next.js: 125ms, application-code: 407ms)
+[browser] ./src/app/page.tsx:104:7
+Expression expected
+  102 |       </div>
+  103 |       
+> 104 |       <div className="mt-auto w-full...
+      |       ^
+  105 |         <DivineFooter />
+  106 |       </div>
+  107 |     </main>
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] 
+[browser] ./src/app/page.tsx:104:7
+Expression expected
+  102 |       </div>
+  103 |       
+> 104 |       <div className="mt-auto w-full...
+      |       ^
+  105 |         <DivineFooter />
+  106 |       </div>
+  107 |     </main>
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] 
+ GET / 200 in 230ms (next.js: 24ms, application-code: 206ms)
+[browser] [locator-js] React instance (react-dom v19.3.0-canary-3f0b9e61-20260317) is not supported (chrome-extension://npbfdllefekhdplbkdigpncggmojpefi/hook.bundle.js:1:27759)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__3c294fcd_12d3_4f45_aa38_117c67dd737a__2 404 in 111ms (next.js: 48ms, application-code: 63ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__d6567c56_7dad_4f34_a72f_241dd3a7c407__1 404 in 115ms (next.js: 65ms, application-code: 50ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__cfba597f_669d_4981_962f_daffbd37de43__0 404 in 123ms (next.js: 31ms, application-code: 92ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__6ecc2796_ae65_4fe8_94e4_eae671336a55__3 404 in 82ms (next.js: 5ms, application-code: 76ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__9c116add_7b3c_4ccc_8653_e723ef02b3a5__4 404 in 54ms (next.js: 5ms, application-code: 49ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__ccf39a77_8bab_470f_9f18_ee2f405bf837__5 404 in 51ms (next.js: 25ms, application-code: 26ms)
+[browser] [locatorjs]: ok (chrome-extension://npbfdllefekhdplbkdigpncggmojpefi/hook.bundle.js:1:36200)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__b0fea9f3_a121_416a_b569_7630648a6dca__0 404 in 114ms (next.js: 7ms, application-code: 107ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__c4a93894_f495_4d46_8e30_0c4e625c6df8__2 404 in 109ms (next.js: 42ms, application-code: 68ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f6662933_e1d0_42ba_81e4_2ceaa2628f61__1 404 in 110ms (next.js: 25ms, application-code: 85ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__0f6c98b9_63c3_4130_bbb9_da6d131347fd__0 404 in 302ms (next.js: 4ms, application-code: 298ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__c9598476_3dc4_4967_a26a_ae9f0d83f6d3__1 404 in 283ms (next.js: 6ms, application-code: 277ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__2d4c5120_b6d4_49aa_b8ab_546d94e85bfe__2 404 in 282ms (next.js: 48ms, application-code: 234ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__e1a64709_90dd_4ef5_9f6e_42abf51e7a69__0 404 in 427ms (next.js: 14ms, application-code: 413ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__eaa2af21_6121_4f53_a081_a30fb424230d__2 404 in 434ms (next.js: 82ms, application-code: 352ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__a0834d71_a6b4_4a72_848a_21cb238da00d__1 404 in 465ms (next.js: 56ms, application-code: 409ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__5ad6a015_da22_4c1a_9008_df27e103e7a8__0 404 in 380ms (next.js: 9ms, application-code: 371ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__465dcc8b_b6d3_4efe_b36e_09fa6fa9a0cc__1 404 in 379ms (next.js: 189ms, application-code: 189ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__22d2c4bd_a41a_4180_ad89_615cc6d1b807__2 404 in 197ms (next.js: 65ms, application-code: 132ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__31885791_248c_4fab_8b90_d711f72eb234__0 404 in 146ms (next.js: 7ms, application-code: 139ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__384a9aea_c291_4872_90bb_c4f95ebcc529__1 404 in 150ms (next.js: 29ms, application-code: 120ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__cc862a3c_16cf_41b2_984c_a032339fdc7a__2 404 in 171ms (next.js: 47ms, application-code: 124ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__b05bfaaa_37cf_4aa9_af1b_1f40653f0476__0 404 in 107ms (next.js: 4ms, application-code: 103ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__824bb65e_6d61_43ba_a29b_dae139879330__1 404 in 109ms (next.js: 23ms, application-code: 85ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__854d9a0e_2823_473f_87d4_36b2b6afd5b0__2 404 in 89ms (next.js: 29ms, application-code: 61ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__4ac87f94_a42f_43b3_9dbb_5136fc5fd45c__0 404 in 248ms (next.js: 9ms, application-code: 239ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__ace528e2_b597_45d8_8766_eff1a2b2e360__1 404 in 299ms (next.js: 38ms, application-code: 261ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__2fcc7809_7970_4661_b683_cf05910d94b9__2 404 in 323ms (next.js: 42ms, application-code: 281ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__1abbdddb_555c_4f6f_bec6_341061115ba6__0 404 in 325ms (next.js: 5ms, application-code: 320ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__920e038d_4186_4274_8cf1_3cf19c9f98ec__1 404 in 287ms (next.js: 50ms, application-code: 237ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__c42d1a45_5758_4244_81e7_cbcc9eefa947__2 404 in 268ms (next.js: 66ms, application-code: 203ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__4f357c40_aac2_4e68_9519_7f56659a755d__0 404 in 156ms (next.js: 18ms, application-code: 138ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__88177c53_c940_4599_9202_d973be2d2bde__1 404 in 200ms (next.js: 40ms, application-code: 160ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__dafd31c7_d9a8_4e42_844e_7398f1b9b565__2 404 in 196ms (next.js: 59ms, application-code: 136ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__8feea6e3_06c7_4931_a07f_8b5bef358646__0 404 in 212ms (next.js: 4ms, application-code: 207ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__daacc58f_7991_4f82_9455_6746dff9e52a__1 404 in 211ms (next.js: 27ms, application-code: 184ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__af3e81d1_4bca_4acc_8d57_defcca05fe53__2 404 in 211ms (next.js: 39ms, application-code: 172ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__33d07609_b3ed_4afb_bbb8_2907f87459d3__0 404 in 139ms (next.js: 4ms, application-code: 135ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__c3a54796_4ed6_446d_b968_50a76e1878ee__1 404 in 198ms (next.js: 41ms, application-code: 157ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__95e1d844_303e_4bfc_b2e9_95bede4282cc__2 404 in 233ms (next.js: 66ms, application-code: 167ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__fa15a699_ae1d_4452_9a4f_b57dbd872cea__0 404 in 215ms (next.js: 12ms, application-code: 203ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__dac5fc5e_c973_4112_82a6_9e0ff0424349__1 404 in 212ms (next.js: 25ms, application-code: 186ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__014eb0f5_38ba_420c_a7e5_3e0a91fdd595__2 404 in 208ms (next.js: 61ms, application-code: 147ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__fb6ad5fc_8a74_47a9_80f3_0e7f45cf0d1e__0 404 in 173ms (next.js: 6ms, application-code: 167ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__0b909afc_5c71_4e70_a3ac_eb1cf806c9ed__2 404 in 193ms (next.js: 42ms, application-code: 151ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__22909ee0_acc5_4a85_ab24_9c7bc160c61f__1 404 in 217ms (next.js: 33ms, application-code: 184ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__4dd8b172_e30c_4b9c_af2b_9cceecf733d6__0 404 in 194ms (next.js: 92ms, application-code: 102ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__5fb69d5a_db97_4f89_b421_6a08101fb469__1 404 in 426ms (next.js: 67ms, application-code: 359ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__643cf8be_d08d_4d4c_81e4_01952c4594c4__0 404 in 431ms (next.js: 7ms, application-code: 424ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__65441a72_b56d_4cc8_a10c_ddc92650394a__2 404 in 321ms (next.js: 24ms, application-code: 297ms)
+ GET /chat 200 in 70ms (next.js: 20ms, application-code: 49ms)
+✓ Compiled in 75ms
+ GET /chat 200 in 124ms (next.js: 13ms, application-code: 111ms)
+[browser] [locator-js] React instance (react-dom v19.3.0-canary-3f0b9e61-20260317) is not supported (chrome-extension://npbfdllefekhdplbkdigpncggmojpefi/hook.bundle.js:1:27759)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__ab1bcd85_6e22_4756_bb44_a0f282a9a1f0__0 404 in 112ms (next.js: 7ms, application-code: 105ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__463685ec_6420_4aae_ba79_e9ccfdaf63ea__1 404 in 81ms (next.js: 8ms, application-code: 73ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f879cb93_9ab7_405d_be55_aded5117ec82__2 404 in 75ms (next.js: 43ms, application-code: 33ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__0c9058e1_dbd4_4dd9_8aee_c74e3cdc417c__3 404 in 80ms (next.js: 3ms, application-code: 77ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f4357c3b_0f7e_422a_b416_7def5cc5db91__5 404 in 55ms (next.js: 24ms, application-code: 31ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__e0ff447c_03e6_4638_aa20_09f745dc1f09__4 404 in 79ms (next.js: 26ms, application-code: 53ms)
+[browser] [locatorjs]: ok (chrome-extension://npbfdllefekhdplbkdigpncggmojpefi/hook.bundle.js:1:36200)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__73b6fc81_e7da_4dd5_b63e_59a42f58d115__0 404 in 163ms (next.js: 5ms, application-code: 157ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__fcbb0292_6041_44af_970a_bbeb137b9748__1 404 in 163ms (next.js: 19ms, application-code: 144ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__7f4a1257_7096_4fc3_a3e4_a8239bde3fda__2 404 in 190ms (next.js: 52ms, application-code: 138ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__4e2d8e7c_46e3_4927_b0d1_24802bb5fd46__0 404 in 167ms (next.js: 3ms, application-code: 164ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__21e9828d_ac77_44d4_872c_34653c435a1d__1 404 in 161ms (next.js: 7ms, application-code: 153ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__27f1b520_f462_45ac_83c2_0eaf25dca497__2 404 in 187ms (next.js: 34ms, application-code: 153ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__d1556419_ec28_49ea_b7e6_a536dca6e403__0 404 in 166ms (next.js: 11ms, application-code: 155ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__e4056e11_6451_49e7_95e8_d7126a4f148e__1 404 in 166ms (next.js: 22ms, application-code: 144ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__62babc8a_7420_4970_bdf5_aa82642f97cd__2 404 in 164ms (next.js: 11ms, application-code: 153ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__3283512b_6e70_43ec_8f47_09bd8b464f67__0 404 in 251ms (next.js: 3ms, application-code: 247ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__1af6a496_a4b5_4068_84c2_052b307f8a2e__1 404 in 240ms (next.js: 11ms, application-code: 228ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__56bef4c4_853f_4bdf_bfb4_463f94c4969c__2 404 in 236ms (next.js: 22ms, application-code: 215ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__b97ad6c3_de33_43fb_bf85_ed54d185df53__0 404 in 221ms (next.js: 12ms, application-code: 209ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__623bbc3d_c8ac_4d2d_983c_884e7a98bbb5__1 404 in 221ms (next.js: 52ms, application-code: 169ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__e59eb47e_b0bd_4ff6_a0c8_a88b50f48495__2 404 in 139ms (next.js: 12ms, application-code: 127ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__ef697b91_34f0_47a8_a69b_5a629bb28090__0 404 in 109ms (next.js: 7ms, application-code: 102ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__e9a2eed9_61cf_4d44_adf7_d72af5ba5596__1 404 in 77ms (next.js: 10ms, application-code: 67ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__2a15a4e1_fde7_4433_87d2_a0d8d00e0821__2 404 in 71ms (next.js: 23ms, application-code: 47ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__7d4834e5_ff0c_4258_acce_7de17e14e7a4__0 404 in 125ms (next.js: 8ms, application-code: 117ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__c0169d53_8c3f_43dd_bc8d_421dd28feb15__1 404 in 125ms (next.js: 37ms, application-code: 88ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__0cd6a7fa_6391_453f_a4ca_9ecb5a55d62b__2 404 in 51ms (next.js: 9ms, application-code: 42ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__b155257a_350b_4af2_a1c2_89cfcb9d0814__0 404 in 847ms (next.js: 8ms, application-code: 838ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__ce95dec7_1826_42c1_9c68_00c216319a92__1 404 in 847ms (next.js: 50ms, application-code: 797ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__4e1353e1_26f9_490a_9be2_dca113098764__2 404 in 847ms (next.js: 94ms, application-code: 754ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__8fe8e95e_49b6_4593_aab2_6eeaf8b6cfcd__0 404 in 716ms (next.js: 11ms, application-code: 705ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__97750093_c292_4dbc_a711_30a2849e2d99__1 404 in 633ms (next.js: 79ms, application-code: 554ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__aaf56fae_f0fb_44c7_a280_971f5fb7b115__2 404 in 563ms (next.js: 409ms, application-code: 154ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__02e9fe8b_f6f1_4474_a9ff_e6742c315480__0 404 in 220ms (next.js: 5ms, application-code: 215ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__06fc91e4_1a59_4010_a631_8b93e365e8a0__1 404 in 222ms (next.js: 16ms, application-code: 205ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__c27dffb4_0dbd_45ce_a67d_8bfec693a4ca__2 404 in 251ms (next.js: 61ms, application-code: 191ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__4b06e67f_e111_4a45_a690_a82715edd71d__0 404 in 225ms (next.js: 4ms, application-code: 221ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__83d9e4a4_2602_4f3f_8b37_7a0d8023a8ed__1 404 in 234ms (next.js: 5ms, application-code: 229ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__e806c750_0bff_4c8f_bf32_295f97232e4e__2 404 in 236ms (next.js: 43ms, application-code: 193ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__137a7d7b_e8d9_4586_a4a2_5a7dd9efa132__1 404 in 190ms (next.js: 28ms, application-code: 161ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__1f18b524_00d0_458d_811a_007b9e74796b__0 404 in 191ms (next.js: 9ms, application-code: 182ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__c6e69db4_b378_47e5_874f_657d0a6f1e64__2 404 in 188ms (next.js: 62ms, application-code: 126ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f49dc423_f297_4169_ad1b_8f9784b810d3__0 404 in 183ms (next.js: 6ms, application-code: 177ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__e67ff572_d00c_4814_a967_a07e89181dbd__1 404 in 227ms (next.js: 5ms, application-code: 222ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__be3f9821_b193_46f3_8e04_8b06ac72e5ad__2 404 in 206ms (next.js: 4ms, application-code: 202ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__8dd6e305_3199_4aab_b52f_53d966beb82e__0 404 in 91ms (next.js: 8ms, application-code: 83ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__7f69e1ea_d28e_4439_a3e0_433b215efd1a__1 404 in 270ms (next.js: 28ms, application-code: 242ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__4a24ecf9_d305_4858_bb67_a5bb27f6da77__0 404 in 271ms (next.js: 9ms, application-code: 262ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f2c001c3_0871_41b0_8633_0cd04bbc7a1a__2 404 in 271ms (next.js: 84ms, application-code: 186ms)
+ GET / 200 in 101ms (next.js: 15ms, application-code: 86ms)
+[browser] [locator-js] React instance (react-dom v19.3.0-canary-3f0b9e61-20260317) is not supported (chrome-extension://npbfdllefekhdplbkdigpncggmojpefi/hook.bundle.js:1:27759)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__2ab68f5f_8b19_447c_b838_925018854881__0 404 in 79ms (next.js: 9ms, application-code: 70ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f3bdedde_930b_47a6_96aa_5e4ecdcb14b4__1 404 in 72ms (next.js: 20ms, application-code: 51ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__4e7721d0_ebf6_41fd_9dc0_588a098cc68f__2 404 in 34ms (next.js: 5ms, application-code: 29ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__a2e2ccdc_4afe_40e6_b4e7_3cfbfaa08c17__3 404 in 81ms (next.js: 5ms, application-code: 76ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__4b93d665_3c44_46ff_9fec_67b1ac945d54__4 404 in 56ms (next.js: 6ms, application-code: 50ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__ee63119d_1066_47d1_8172_042da76bab60__5 404 in 53ms (next.js: 21ms, application-code: 33ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__7447071c_138c_4319_a9e0_af3c5b33e52b__0 404 in 320ms (next.js: 9ms, application-code: 311ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__91ea34ed_7014_43b6_985c_004701c03329__1 404 in 320ms (next.js: 39ms, application-code: 280ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__75a8bc6c_2b67_4381_9ea9_c077a9d5b71c__2 404 in 323ms (next.js: 61ms, application-code: 262ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__7dd8c462_bed7_4541_9270_1cfba3f9c040__1 404 in 267ms (next.js: 22ms, application-code: 245ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__66945df9_167a_41c8_920e_6d2e326489e4__0 404 in 271ms (next.js: 7ms, application-code: 264ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__2fbee59b_2af0_4e96_8def_26facef99dc4__2 404 in 396ms (next.js: 43ms, application-code: 353ms)
+[browser] [locatorjs]: ok (chrome-extension://npbfdllefekhdplbkdigpncggmojpefi/hook.bundle.js:1:36200)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__36128d5e_3345_41ed_962a_806f6c7d0317__0 404 in 548ms (next.js: 39ms, application-code: 509ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__df971994_25d3_4bc8_8157_46ef49fad49d__1 404 in 544ms (next.js: 62ms, application-code: 482ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__8f790cc4_e5c8_45d1_8eb5_2039fa052b63__2 404 in 578ms (next.js: 155ms, application-code: 422ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f97e9ed5_39ab_4526_9b31_919d43e97e6c__0 404 in 351ms (next.js: 15ms, application-code: 336ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__e12020c7_08e9_473c_b3db_44fd74e93691__1 404 in 354ms (next.js: 30ms, application-code: 324ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__4c4d18e3_de9d_410d_aa41_1ba87282e082__2 404 in 352ms (next.js: 78ms, application-code: 273ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__49583a56_2086_40f6_9dd9_f9a720a3ddf6__0 404 in 497ms (next.js: 24ms, application-code: 474ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__c4b75cf6_93dd_4c1b_afd4_8d1d906a0a75__1 404 in 498ms (next.js: 43ms, application-code: 455ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__1586c83d_c002_429a_9625_a3b3832a247a__2 404 in 497ms (next.js: 279ms, application-code: 218ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__cadb66d9_2101_4353_8211_af53068fbc24__0 404 in 162ms (next.js: 17ms, application-code: 145ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__245b8551_63f9_4194_b702_696119e27009__1 404 in 161ms (next.js: 30ms, application-code: 132ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__34a203c9_582d_45fc_8f13_c62a0eb13582__2 404 in 102ms (next.js: 12ms, application-code: 89ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__62b5bf7e_bc33_495f_b94c_92e705362b19__0 404 in 534ms (next.js: 18ms, application-code: 516ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__0f7cd87a_a42e_4a04_82ba_ba1cb5d69a9c__1 404 in 531ms (next.js: 77ms, application-code: 454ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__e305e934_b220_468a_806b_eca04090b5a9__2 404 in 526ms (next.js: 186ms, application-code: 340ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__76218c7b_7525_4ff6_b862_6fd51247c8fc__2 404 in 603ms (next.js: 110ms, application-code: 493ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f916a8fb_7930_4ccf_b9d8_f51327e20733__1 404 in 607ms (next.js: 82ms, application-code: 525ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__984dd5e8_6d5a_4fef_bff0_61be8320c0ad__0 404 in 614ms (next.js: 20ms, application-code: 594ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__08ac9b7d_5859_4158_9c0e_a3c11f9d714d__2 404 in 397ms (next.js: 138ms, application-code: 259ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__eac365ee_dad2_49c9_9f73_2028098a66be__1 404 in 400ms (next.js: 21ms, application-code: 379ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__5fc4be71_323d_4924_909d_9b48316f26a5__0 404 in 402ms (next.js: 7ms, application-code: 396ms)
+ GET /chat 200 in 37ms (next.js: 13ms, application-code: 23ms)
+✓ Compiled in 88ms
+ GET /chat 200 in 144ms (next.js: 16ms, application-code: 128ms)
+ GET /library 200 in 91ms (next.js: 8ms, application-code: 84ms)
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 132ms (next.js: 33ms, application-code: 99ms)
+ GET / 200 in 88ms (next.js: 20ms, application-code: 69ms)
+[browser] [locator-js] React instance (react-dom v19.3.0-canary-3f0b9e61-20260317) is not supported (chrome-extension://npbfdllefekhdplbkdigpncggmojpefi/hook.bundle.js:1:27759)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__9472e1c5_1832_4a66_8f4c_2c627e436ed5__0 404 in 102ms (next.js: 7ms, application-code: 95ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__88aa9b11_c24a_4f00_adc3_71b4a07ad915__1 404 in 66ms (next.js: 6ms, application-code: 60ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__309846b2_d712_4309_9bc6_c419b5c7c29c__2 404 in 65ms (next.js: 31ms, application-code: 34ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__66a0adaf_c5ad_4eec_b1de_73dec70e3a9c__3 404 in 102ms (next.js: 10ms, application-code: 91ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__e98f220f_ed68_435b_b1e1_6c67a8da9ac2__4 404 in 67ms (next.js: 7ms, application-code: 60ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__1a18fad9_7e57_4c44_9d00_90b5a19c69b7__5 404 in 66ms (next.js: 28ms, application-code: 38ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__3f52b8ce_f059_47cc_8769_7594ed5e474e__0 404 in 173ms (next.js: 4ms, application-code: 169ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f6d6ccff_6cad_47fb_bae4_badc1e13694d__1 404 in 161ms (next.js: 6ms, application-code: 155ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__e60e86dd_a06a_4a4f_9978_03d98d4cd4bd__2 404 in 164ms (next.js: 29ms, application-code: 135ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__73348e38_7ea9_4ae6_952c_d7e7f415434f__0 404 in 200ms (next.js: 5ms, application-code: 195ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__74c63479_a36b_4597_9798_233c97605c0e__1 404 in 201ms (next.js: 33ms, application-code: 169ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__a4ef7573_e796_42c5_b816_7a889691358a__2 404 in 201ms (next.js: 44ms, application-code: 158ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__ef79e368_eba7_4f3f_b0a2_fa7b44c9a8e3__0 404 in 193ms (next.js: 4ms, application-code: 189ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__3ab2189e_da0b_4744_8f25_b1a7015dfc50__1 404 in 175ms (next.js: 5ms, application-code: 170ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__b38e2176_d0e4_4901_9940_09de1dd6f1a7__2 404 in 175ms (next.js: 27ms, application-code: 148ms)
+[browser] [locatorjs]: ok (chrome-extension://npbfdllefekhdplbkdigpncggmojpefi/hook.bundle.js:1:36200)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__3a44ff83_e795_4fca_88b5_8800b78ed9b6__0 404 in 250ms (next.js: 7ms, application-code: 244ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__5d69dc5f_6a72_4761_9b7a_96d5eed80808__1 404 in 253ms (next.js: 22ms, application-code: 231ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__fab3aa11_f639_4699_b6bb_9150477a9a57__2 404 in 237ms (next.js: 23ms, application-code: 214ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__6e89d1b2_7e7b_44ac_95ef_c1fed4b96f43__0 404 in 392ms (next.js: 4ms, application-code: 389ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f0772699_dee7_4ca9_8999_1b54529773fd__1 404 in 408ms (next.js: 22ms, application-code: 386ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__8fd7fdc6_23c7_440f_9b80_3d61c16e2a08__2 404 in 395ms (next.js: 73ms, application-code: 322ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__dfa75235_655d_4845_896d_e3a3348b90d1__0 404 in 344ms (next.js: 54ms, application-code: 290ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__8dac7987_8f6a_4783_83a4_4422f16b8656__1 404 in 334ms (next.js: 122ms, application-code: 212ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__37f895e9_8c83_42ec_85e9_bdc8ec5d7873__2 404 in 232ms (next.js: 50ms, application-code: 181ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__2a02dcc4_85be_4a15_8734_00b5117f53e2__0 404 in 145ms (next.js: 6ms, application-code: 139ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f34caeaa_c9aa_4011_b4b3_8153db916686__1 404 in 144ms (next.js: 27ms, application-code: 117ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__0925d9be_6ce6_4dee_908e_5214f777fd35__2 404 in 145ms (next.js: 56ms, application-code: 89ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__02285818_3136_4516_b4a1_8a5f5310b901__1 404 in 508ms (next.js: 123ms, application-code: 385ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__65f86ace_152a_4bfa_8380_61f01c069c61__0 404 in 512ms (next.js: 93ms, application-code: 419ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__5ee1562d_584e_4d6e_bee5_2f6e7d21a57d__2 404 in 490ms (next.js: 259ms, application-code: 231ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__2c4421b4_c1ac_4acf_891e_461306fb17db__0 404 in 260ms (next.js: 13ms, application-code: 247ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__2019af46_3979_4cb0_b5dd_518f97d4d060__2 404 in 292ms (next.js: 96ms, application-code: 196ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__81ea8a53_7c62_4bac_9242_1e2bfd023f75__1 404 in 295ms (next.js: 76ms, application-code: 219ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__985fd6dd_061a_48f2_941d_f8b301ec7f66__1 404 in 289ms (next.js: 34ms, application-code: 255ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__9095cb8d_b5dc_454b_8125_c304123efa6d__0 404 in 291ms (next.js: 5ms, application-code: 285ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__642befb4_85fa_454c_bba2_7cb4137bef69__2 404 in 289ms (next.js: 98ms, application-code: 191ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__7355aa42_c594_45c5_861a_412449ae8f44__0 404 in 179ms (next.js: 6ms, application-code: 173ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__05e811c4_18bd_4a0c_9df3_7bbaeca82e81__1 404 in 269ms (next.js: 24ms, application-code: 245ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__2e91e526_92c5_4c0d_a6c6_c6c9a12d44dd__2 404 in 271ms (next.js: 40ms, application-code: 231ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__3dd02d1d_6ee7_4194_817f_d42b795069b1__0 404 in 84ms (next.js: 10ms, application-code: 74ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__6eda66d8_1af1_4089_847a_0515cc5c97a9__2 404 in 152ms (next.js: 26ms, application-code: 126ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__2694c4ea_6c3d_4215_b2d9_a4a1f817514f__1 404 in 275ms (next.js: 41ms, application-code: 234ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__0e4a8213_5a4b_464b_88c8_fdac908d8619__0 404 in 277ms (next.js: 21ms, application-code: 256ms)
+✓ Compiled in 670ms
+ GET / 200 in 983ms (next.js: 79ms, application-code: 905ms)
+ GET / 200 in 99ms (next.js: 15ms, application-code: 83ms)
+ GET / 200 in 43ms (next.js: 24ms, application-code: 19ms)
+ GET /library 200 in 1798ms (next.js: 207ms, application-code: 1590ms)
+ GET /library 200 in 884ms (next.js: 692ms, application-code: 192ms)
+ GET /library 200 in 54ms (next.js: 6ms, application-code: 48ms)
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 1851ms (next.js: 177ms, application-code: 1674ms)
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 927ms (next.js: 17ms, application-code: 910ms)
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 113ms (next.js: 2ms, application-code: 111ms)
+ GET /chat 200 in 61ms (next.js: 37ms, application-code: 24ms)
+✓ Compiled in 111ms
+✓ Compiled in 128ms
+[browser] ./src/app/chat/page.tsx:149:23
+Expected '</', got 'no substitution template literal'
+  147 | ...    className="star absolu...
+  148 | ...    style={{
+> 149 | ...      top: \`\${Math.rando...
+      |                ^^^^^^^^^^^^^^^^^
+> 150 | ...      left: \`\${Math.rand...
+      |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 151 | ...      animationDelay: \`\$...
+      |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 152 | ...      animationDuration: \...
+      |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 153 | ...    }}
+      |    ^^^^^^^^^^^^^^^^
+> 154 | ...  />
+      |    ^^^^^^^^^^^^^^
+> 155 | ...))}
+      |    ^^^^^^^^^^^^^
+> 156 | ...div>
+      |    ^^^^^^^^^^^^^^
+> 157 | ...
+      | ^
+> 158 | ...iv className="absolute ins...
+      |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 159 | ...v>
+      |    ^^^^^^^^^^^^
+> 160 | ...
+      | ^
+> 161 | ...Header */}
+      |    ^^^^^^^^^^^^^^^^^^^^
+> 162 | ... className="flex-shrink-0 ...
+      |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 163 | ...1 className="font-cinzel t...
+      |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 164 | ...Veda AI
+      |    ^^^^^^^^^^^^^^^^^
+> 165 | ...h1>
+      |    ^^^^^^^^^^^^^
+> 166 | ... className="text-muted/80 ...
+      |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 167 | ...v>
+      |    ^^^^^^^^^^^^
+> 168 | ...
+      | ^
+> 169 | ...Chat Messages Area */}
+      |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 170 | ... ref={scrollRef} className...
+      |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 171 | ...essages.map((msg) => (
+      |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 172 | ...<div
+      |    ^^^^^^^^^^^^^^
+> 173 | ...  key={msg.id}
+      |    ^^^^^^^^^^^^^^^^^^^^^^^^
+> 174 | ...  className={`flex flex-co...
+      |    ^^^^^^^^^^^^^^^^^^^^^^^^
+  175 | ...>
+  176 | ...  <div 
+  177 | ...    className={`glass-pane...
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/app/chat/page.tsx [Client Component Browser]
+    ./src/app/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/chat/page.tsx [Client Component SSR]
+    ./src/app/chat/page.tsx [Server Component] 
+[browser] ./src/app/chat/page.tsx:149:23
+Expected '</', got 'no substitution template literal'
+  147 | ...    className="star absolu...
+  148 | ...    style={{
+> 149 | ...      top: \`\${Math.rando...
+      |                ^^^^^^^^^^^^^^^^^
+> 150 | ...      left: \`\${Math.rand...
+      |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 151 | ...      animationDelay: \`\$...
+      |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 152 | ...      animationDuration: \...
+      |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 153 | ...    }}
+      |    ^^^^^^^^^^^^^^^^
+> 154 | ...  />
+      |    ^^^^^^^^^^^^^^
+> 155 | ...))}
+      |    ^^^^^^^^^^^^^
+> 156 | ...div>
+      |    ^^^^^^^^^^^^^^
+> 157 | ...
+      | ^
+> 158 | ...iv className="absolute ins...
+      |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 159 | ...v>
+      |    ^^^^^^^^^^^^
+> 160 | ...
+      | ^
+> 161 | ...Header */}
+      |    ^^^^^^^^^^^^^^^^^^^^
+> 162 | ... className="flex-shrink-0 ...
+      |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 163 | ...1 className="font-cinzel t...
+      |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 164 | ...Veda AI
+      |    ^^^^^^^^^^^^^^^^^
+> 165 | ...h1>
+      |    ^^^^^^^^^^^^^
+> 166 | ... className="text-muted/80 ...
+      |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 167 | ...v>
+      |    ^^^^^^^^^^^^
+> 168 | ...
+      | ^
+> 169 | ...Chat Messages Area */}
+      |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 170 | ... ref={scrollRef} className...
+      |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 171 | ...essages.map((msg) => (
+      |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 172 | ...<div
+      |    ^^^^^^^^^^^^^^
+> 173 | ...  key={msg.id}
+      |    ^^^^^^^^^^^^^^^^^^^^^^^^
+> 174 | ...  className={`flex flex-co...
+      |    ^^^^^^^^^^^^^^^^^^^^^^^^
+  175 | ...>
+  176 | ...  <div 
+  177 | ...    className={`glass-pane...
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/app/chat/page.tsx [Client Component Browser]
+    ./src/app/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/chat/page.tsx [Client Component SSR]
+    ./src/app/chat/page.tsx [Server Component] 
+✓ Compiled in 39ms
+ GET /chat 200 in 158ms (next.js: 10ms, application-code: 148ms)
+ GET /library 200 in 478ms (next.js: 10ms, application-code: 468ms)
+ GET /library?book=mahabharata&parva=1&chapter=1 200 in 194ms (next.js: 37ms, application-code: 157ms)
+[browser] ./src/app/chat/page.tsx:149:23
+Expected '</', got 'no substitution template literal'
+  147 | ...    className="star absolu...
+  148 | ...    style={{
+> 149 | ...      top: \`\${Math.rando...
+      |                ^^^^^^^^^^^^^^^^^
+> 150 | ...      left: \`\${Math.rand...
+      |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 151 | ...      animationDelay: \`\$...
+      |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 152 | ...      animationDuration: \...
+      |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 153 | ...    }}
+      |    ^^^^^^^^^^^^^^^^
+> 154 | ...  />
+      |    ^^^^^^^^^^^^^^
+> 155 | ...))}
+      |    ^^^^^^^^^^^^^
+> 156 | ...div>
+      |    ^^^^^^^^^^^^^^
+> 157 | ...
+      | ^
+> 158 | ...iv className="absolute ins...
+      |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 159 | ...v>
+      |    ^^^^^^^^^^^^
+> 160 | ...
+      | ^
+> 161 | ...Header */}
+      |    ^^^^^^^^^^^^^^^^^^^^
+> 162 | ... className="flex-shrink-0 ...
+      |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 163 | ...1 className="font-cinzel t...
+      |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 164 | ...Veda AI
+      |    ^^^^^^^^^^^^^^^^^
+> 165 | ...h1>
+      |    ^^^^^^^^^^^^^
+> 166 | ... className="text-muted/80 ...
+      |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 167 | ...v>
+      |    ^^^^^^^^^^^^
+> 168 | ...
+      | ^
+> 169 | ...Chat Messages Area */}
+      |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 170 | ... ref={scrollRef} className...
+      |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 171 | ...essages.map((msg) => (
+      |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 172 | ...<div
+      |    ^^^^^^^^^^^^^^
+> 173 | ...  key={msg.id}
+      |    ^^^^^^^^^^^^^^^^^^^^^^^^
+> 174 | ...  className={`flex flex-co...
+      |    ^^^^^^^^^^^^^^^^^^^^^^^^
+  175 | ...>
+  176 | ...  <div 
+  177 | ...    className={`glass-pane...
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/app/chat/page.tsx [Client Component Browser]
+    ./src/app/chat/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/chat/page.tsx [Client Component SSR]
+    ./src/app/chat/page.tsx [Server Component] 
+ GET /chat 200 in 202ms (next.js: 16ms, application-code: 186ms)
+[browser] [locator-js] React instance (react-dom v19.3.0-canary-3f0b9e61-20260317) is not supported (chrome-extension://npbfdllefekhdplbkdigpncggmojpefi/hook.bundle.js:1:27759)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__858512e4_7fb6_48ef_b7cf_a346d18f60fb__0 404 in 115ms (next.js: 22ms, application-code: 93ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__6430494c_0718_4fb2_94b0_e5901b59959e__1 404 in 66ms (next.js: 6ms, application-code: 60ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__5dd47006_800e_49b9_b2c6_8c852706d521__2 404 in 62ms (next.js: 28ms, application-code: 34ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__949b56b5_82e4_43c1_a539_d80689204958__3 404 in 103ms (next.js: 4ms, application-code: 98ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__1c088378_ea14_467b_ac2c_46e3f2582e53__4 404 in 101ms (next.js: 30ms, application-code: 71ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__0ff7ff12_7f35_4b0a_8f47_8d39698872ab__5 404 in 45ms (next.js: 8ms, application-code: 37ms)
+[browser] [locatorjs]: ok (chrome-extension://npbfdllefekhdplbkdigpncggmojpefi/hook.bundle.js:1:36200)
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <InnerScrollAndFocusHandlerOld focusAndScrollRef={{scrollRef:null, ...}} cacheNode={{rsc:{...}, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="chat/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+            <RedirectBoundary>
+              <RedirectErrorBoundary router={{...}}>
+                <InnerLayoutRouter url="/chat" tree={[...]} params={{}} cacheNode={{rsc:{...}, ...}} segmentPath={[...]} ...>
+                  <SegmentViewNode type="page" pagePath="chat/page.tsx">
+                    <SegmentTrieNode>
+                    <ClientPageRoot Component={function ChatPage} serverProvidedParams={{...}}>
+                      <ChatPage params={Promise} searchParams={Promise}>
+                        <div className="fixed inse...">
+                          <a>
+                          <style>
+                          <div className="absolute i...">
+                            <div>
+                            <div className="absolute i...">
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "39.29695298715736%"
+-                                 top: "19.8864%"
++                                 left: "96.63829671275658%"
+-                                 left: "69.6745%"
++                                 animationDelay: "4.654325590217125s"
++                                 animationDuration: "4.947877115534564s"
+-                                 animation-delay: "2.72091s"
+-                                 animation-duration: "3.76942s"
+                                }}
+                              >
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "55.04146334769485%"
+-                                 top: "75.8543%"
++                                 left: "96.46847926963585%"
+-                                 left: "7.93508%"
++                                 animationDelay: "3.6060580962068207s"
++                                 animationDuration: "4.17119563309692s"
+-                                 animation-delay: "3.93718s"
+-                                 animation-duration: "3.88791s"
+                                }}
+                              >
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "5.3762237389110235%"
+-                                 top: "7.38052%"
++                                 left: "88.5954340449834%"
+-                                 left: "53.3506%"
++                                 animationDelay: "2.4232325213290595s"
++                                 animationDuration: "3.1918017391825253s"
+-                                 animation-delay: "0.746841s"
+-                                 animation-duration: "5.43125s"
+                                }}
+                              >
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "25.190367738712116%"
+-                                 top: "25.3446%"
++                                 left: "14.021397206067343%"
+-                                 left: "46.8364%"
++                                 animationDelay: "3.605745330458689s"
++                                 animationDuration: "4.966212936122634s"
+-                                 animation-delay: "2.08543s"
+-                                 animation-duration: "3.2816s"
+                                }}
+                              >
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "82.36850405471976%"
+-                                 top: "62.1157%"
++                                 left: "91.39101204280628%"
+-                                 left: "74.808%"
++                                 animationDelay: "4.563700634894703s"
++                                 animationDuration: "4.045956588558095s"
+-                                 animation-delay: "2.75481s"
+-                                 animation-duration: "5.55847s"
+                                }}
+                              >
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "41.00605226744061%"
+-                                 top: "32.0792%"
++                                 left: "3.8018462271508957%"
+-                                 left: "18.9502%"
++                                 animationDelay: "3.5412806388411724s"
++                                 animationDuration: "3.3190700184488953s"
+-                                 animation-delay: "0.815556s"
+-                                 animation-duration: "3.91761s"
+                                }}
+                              >
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "82.75687331814773%"
+-                                 top: "85.9029%"
++                                 left: "20.674332019804442%"
+-                                 left: "80.4416%"
++                                 animationDelay: "2.9847561756351744s"
++                                 animationDuration: "5.442890554325981s"
+-                                 animation-delay: "1.09402s"
+-                                 animation-duration: "3.10752s"
+                                }}
+                              >
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "48.81760150115071%"
+-                                 top: "59.3237%"
++                                 left: "85.57810585206786%"
+-                                 left: "30.4781%"
++                                 animationDelay: "1.095994929872592s"
++                                 animationDuration: "4.217141039094447s"
+-                                 animation-delay: "0.696363s"
+-                                 animation-duration: "4.63531s"
+                                }}
+                              >
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "88.03783423012148%"
+-                                 top: "65.491%"
++                                 left: "83.24267135039452%"
+-                                 left: "10.1676%"
++                                 animationDelay: "1.705513830157313s"
++                                 animationDuration: "5.491491949145981s"
+-                                 animation-delay: "3.28754s"
+-                                 animation-duration: "3.61866s"
+                                }}
+                              >
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "71.09012927738493%"
+-                                 top: "30.8385%"
++                                 left: "71.37026370928581%"
+-                                 left: "84.2849%"
++                                 animationDelay: "2.9810431412397254s"
++                                 animationDuration: "4.474018753591515s"
+-                                 animation-delay: "0.296693s"
+-                                 animation-duration: "3.55857s"
+                                }}
+                              >
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "96.57196896408402%"
+-                                 top: "65.6877%"
++                                 left: "75.38079956546711%"
+-                                 left: "84.7898%"
++                                 animationDelay: "2.1736233551368778s"
++                                 animationDuration: "3.0855810292945804s"
+-                                 animation-delay: "3.13104s"
+-                                 animation-duration: "3.25176s"
+                                }}
+                              >
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "76.76280599556318%"
+-                                 top: "69.6661%"
++                                 left: "30.753086764215777%"
+-                                 left: "48.136%"
++                                 animationDelay: "0.3468755436672688s"
++                                 animationDuration: "5.1290910479637155s"
+-                                 animation-delay: "2.51685s"
+-                                 animation-duration: "4.15812s"
+                                }}
+                              >
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "38.89143168415817%"
+-                                 top: "79.1354%"
++                                 left: "22.40655922887069%"
+-                                 left: "64.9822%"
++                                 animationDelay: "3.8403802665925317s"
++                                 animationDuration: "3.612669609043403s"
+-                                 animation-delay: "1.03175s"
+-                                 animation-duration: "4.4204s"
+                                }}
+                              >
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "20.001539748527406%"
+-                                 top: "32.1189%"
++                                 left: "20.516159856666615%"
+-                                 left: "9.53166%"
++                                 animationDelay: "2.153927360618967s"
++                                 animationDuration: "5.542315496512022s"
+-                                 animation-delay: "2.84822s"
+-                                 animation-duration: "5.46125s"
+                                }}
+                              >
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "3.395338267859105%"
+-                                 top: "85.3361%"
++                                 left: "80.28835516205633%"
+-                                 left: "75.7742%"
++                                 animationDelay: "0.1626773260477976s"
++                                 animationDuration: "3.2595441856346556s"
+-                                 animation-delay: "0.572395s"
+-                                 animation-duration: "5.99681s"
+                                }}
+                              >
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "20.01602252487784%"
+-                                 top: "91.5737%"
++                                 left: "84.00296839169941%"
+-                                 left: "19.6644%"
++                                 animationDelay: "0.12982542431044575s"
++                                 animationDuration: "5.874487031049993s"
+-                                 animation-delay: "1.50925s"
+-                                 animation-duration: "3.46649s"
+                                }}
+                              >
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "17.146578535805578%"
+-                                 top: "50.2822%"
++                                 left: "20.81475265036842%"
+-                                 left: "24.0556%"
++                                 animationDelay: "4.400954079025213s"
++                                 animationDuration: "4.134341696388195s"
+-                                 animation-delay: "1.04441s"
+-                                 animation-duration: "4.15273s"
+                                }}
+                              >
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "98.85110252088548%"
+-                                 top: "91.5044%"
++                                 left: "61.98847273744441%"
+-                                 left: "8.74902%"
++                                 animationDelay: "2.706680346597204s"
++                                 animationDuration: "4.284550495551792s"
+-                                 animation-delay: "0.725198s"
+-                                 animation-duration: "3.84316s"
+                                }}
+                              >
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "25.833721499269537%"
+-                                 top: "74.3721%"
++                                 left: "18.314100670166166%"
+-                                 left: "44.1395%"
++                                 animationDelay: "0.5380324722121022s"
++                                 animationDuration: "5.458898455095615s"
+-                                 animation-delay: "1.22238s"
+-                                 animation-duration: "5.88959s"
+                                }}
+                              >
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "67.52795020727096%"
+-                                 top: "53.8369%"
++                                 left: "3.1733418429070293%"
+-                                 left: "83.1775%"
++                                 animationDelay: "1.527499512404757s"
++                                 animationDuration: "4.956583995298677s"
+-                                 animation-delay: "4.11882s"
+-                                 animation-duration: "4.3724s"
+                                }}
+                              >
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "73.42373872051226%"
+-                                 top: "65.8316%"
++                                 left: "76.00333515743385%"
+-                                 left: "59.7739%"
++                                 animationDelay: "4.120290103279399s"
++                                 animationDuration: "5.330406788980653s"
+-                                 animation-delay: "4.22718s"
+-                                 animation-duration: "3.07041s"
+                                }}
+                              >
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "41.14810924796943%"
+-                                 top: "16.3889%"
++                                 left: "44.34700566653093%"
+-                                 left: "67.0064%"
++                                 animationDelay: "3.1306615655726917s"
++                                 animationDuration: "5.685302241892882s"
+-                                 animation-delay: "2.99654s"
+-                                 animation-duration: "3.13994s"
+                                }}
+                              >
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "96.26265534088085%"
+-                                 top: "31.5894%"
++                                 left: "43.78808274922057%"
+-                                 left: "33.2458%"
++                                 animationDelay: "4.57060033431756s"
++                                 animationDuration: "5.837685229562773s"
+-                                 animation-delay: "4.01113s"
+-                                 animation-duration: "3.23704s"
+                                }}
+                              >
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "39.5872545701969%"
+-                                 top: "49.0081%"
++                                 left: "81.52178090538587%"
+-                                 left: "11.8295%"
++                                 animationDelay: "1.3163095153277675s"
++                                 animationDuration: "5.134808135177306s"
+-                                 animation-delay: "3.3127s"
+-                                 animation-duration: "4.30446s"
+                                }}
+                              >
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "31.189569316903675%"
+-                                 top: "69.6591%"
++                                 left: "44.85516428973886%"
+-                                 left: "37.4429%"
++                                 animationDelay: "2.303841512629882s"
++                                 animationDuration: "3.938729093565264s"
+-                                 animation-delay: "1.24125s"
+-                                 animation-duration: "4.42551s"
+                                }}
+                              >
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "68.36793623512776%"
+-                                 top: "19.1254%"
++                                 left: "20.730625737441464%"
+-                                 left: "36.3862%"
++                                 animationDelay: "4.244074943096759s"
++                                 animationDuration: "3.9881656984611347s"
+-                                 animation-delay: "0.672999s"
+-                                 animation-duration: "4.3317s"
+                                }}
+                              >
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "41.44414582731287%"
+-                                 top: "25.4006%"
++                                 left: "20.117617667216436%"
+-                                 left: "58.585%"
++                                 animationDelay: "0.7889745361363032s"
++                                 animationDuration: "5.22864488802123s"
+-                                 animation-delay: "4.84139s"
+-                                 animation-duration: "4.09569s"
+                                }}
+                              >
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "20.9063097712491%"
+-                                 top: "25.6919%"
++                                 left: "99.37238735385368%"
+-                                 left: "50.9651%"
++                                 animationDelay: "2.7749313361331196s"
++                                 animationDuration: "3.654964925342962s"
+-                                 animation-delay: "4.40602s"
+-                                 animation-duration: "5.77861s"
+                                }}
+                              >
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "0.7957290971911224%"
+-                                 top: "37.3827%"
++                                 left: "31.069642431262267%"
+-                                 left: "19.2846%"
++                                 animationDelay: "3.187813847986201s"
++                                 animationDuration: "3.926414245216582s"
+-                                 animation-delay: "1.92707s"
+-                                 animation-duration: "4.17656s"
+                                }}
+                              >
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "22.97106454934459%"
+-                                 top: "21.618%"
++                                 left: "22.37736201120021%"
+-                                 left: "50.8703%"
++                                 animationDelay: "3.5052685508506243s"
++                                 animationDuration: "5.142001829579295s"
+-                                 animation-delay: "3.16163s"
+-                                 animation-duration: "3.52601s"
+                                }}
+                              >
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "41.57551710403613%"
+-                                 top: "77.3828%"
++                                 left: "98.8981400424824%"
+-                                 left: "95.7604%"
++                                 animationDelay: "4.915026070008822s"
++                                 animationDuration: "4.739309753206815s"
+-                                 animation-delay: "3.85866s"
+-                                 animation-duration: "5.52024s"
+                                }}
+                              >
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "97.06460983606692%"
+-                                 top: "88.7765%"
++                                 left: "7.592038141009516%"
+-                                 left: "53.6354%"
++                                 animationDelay: "1.1595306562139123s"
++                                 animationDuration: "5.69387331335437s"
+-                                 animation-delay: "0.841704s"
+-                                 animation-duration: "5.30364s"
+                                }}
+                              >
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "38.789262958471305%"
+-                                 top: "15.372%"
++                                 left: "16.76264165378989%"
+-                                 left: "10.4242%"
++                                 animationDelay: "2.915574791024449s"
++                                 animationDuration: "4.803511550466057s"
+-                                 animation-delay: "3.03744s"
+-                                 animation-duration: "3.69557s"
+                                }}
+                              >
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "76.31794499474518%"
+-                                 top: "98.4259%"
++                                 left: "45.29484725877062%"
+-                                 left: "94.9038%"
++                                 animationDelay: "0.0349890223310112s"
++                                 animationDuration: "5.2064219008712715s"
+-                                 animation-delay: "2.03108s"
+-                                 animation-duration: "5.54081s"
+                                }}
+                              >
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "40.57913802595545%"
+-                                 top: "72.2006%"
++                                 left: "66.69250731837928%"
+-                                 left: "26.0855%"
++                                 animationDelay: "0.2005265738130496s"
++                                 animationDuration: "3.4785544612377715s"
+-                                 animation-delay: "1.30459s"
+-                                 animation-duration: "5.57658s"
+                                }}
+                              >
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "49.90227656350555%"
+-                                 top: "78.5423%"
++                                 left: "0.9090462973523783%"
+-                                 left: "35.042%"
++                                 animationDelay: "1.8723345490389498s"
++                                 animationDuration: "4.028159745985765s"
+-                                 animation-delay: "1.10386s"
+-                                 animation-duration: "4.30243s"
+                                }}
+                              >
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "14.763213789363927%"
+-                                 top: "23.6919%"
++                                 left: "58.5451032996498%"
+-                                 left: "72.9526%"
++                                 animationDelay: "1.4565861446448702s"
++                                 animationDuration: "3.0951408768508495s"
+-                                 animation-delay: "3.73798s"
+-                                 animation-duration: "3.7216s"
+                                }}
+                              >
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "56.26188733270785%"
+-                                 top: "65.5432%"
++                                 left: "97.39257611934758%"
+-                                 left: "43.642%"
++                                 animationDelay: "4.774816940017671s"
++                                 animationDuration: "4.384883694859628s"
+-                                 animation-delay: "3.64067s"
+-                                 animation-duration: "4.3358s"
+                                }}
+                              >
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "87.73097539785924%"
+-                                 top: "91.8023%"
++                                 left: "81.8400848585181%"
+-                                 left: "86.7539%"
++                                 animationDelay: "0.9387926408847086s"
++                                 animationDuration: "4.984103192030435s"
+-                                 animation-delay: "3.71587s"
+-                                 animation-duration: "3.12803s"
+                                }}
+                              >
+                              <div
+                                className="star absolute w-1 h-1 bg-white rounded-full opacity-0 shadow-[0_0_8px_2px_r..."
+                                style={{
++                                 top: "86.79400425942995%"
+-                                 top: "79.2633%"
++                                 left: "83.42335963053344%"
+-                                 left: "54.7393%"
++                                 animationDelay: "0.5156589508334519s"
++                                 animationDuration: "4.378947639236685s"
+-                                 animation-delay: "1.57323s"
+-                                 animation-duration: "3.52897s"
+                                }}
+                              >
+                            ...
+                          ...
+                  ...
+                ...
+      ...
+ 
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f8442d16_b957_481d_911d_e54948e65f01__0 404 in 162ms (next.js: 5ms, application-code: 157ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__a444feba_4878_4ab8_8ded_12fca38616e8__1 404 in 180ms (next.js: 34ms, application-code: 146ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__6d2c16a7_e119_4e3c_b89e_b96b78c40762__2 404 in 153ms (next.js: 50ms, application-code: 103ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__03882107_3cd9_45d7_810c_badef91c27ce__0 404 in 151ms (next.js: 5ms, application-code: 146ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__8ea39e48_d9dc_409f_b5ec_296fd82cc093__1 404 in 213ms (next.js: 3ms, application-code: 209ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__185f189f_5816_4195_a567_a44cde7c11a1__2 404 in 187ms (next.js: 7ms, application-code: 181ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__86d06bbf_3ae5_4920_9192_e932d570b095__0 404 in 205ms (next.js: 34ms, application-code: 171ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__8cd191da_499e_4f60_afc6_1cef68df850e__1 404 in 180ms (next.js: 44ms, application-code: 136ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__3b5e643e_e42c_4d24_bc4f_78c5e76222bf__2 404 in 149ms (next.js: 31ms, application-code: 118ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__24eaed8a_0d23_4e9b_8777_49954476dcd5__0 404 in 252ms (next.js: 19ms, application-code: 233ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__8bbde27e_9c9d_459b_a90c_8950022963f7__1 404 in 295ms (next.js: 3ms, application-code: 292ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__39233568_0e29_4b35_a1f7_02ed53d8897a__2 404 in 299ms (next.js: 9ms, application-code: 291ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f130d834_76a8_4884_ab9a_f7efb6d0ff46__0 404 in 320ms (next.js: 107ms, application-code: 213ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__d1d61032_8e3d_42f9_8fbe_5d49bcca3c04__1 404 in 228ms (next.js: 56ms, application-code: 172ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__480cc1bd_01c0_47c8_a609_5e74547b76dd__2 404 in 194ms (next.js: 51ms, application-code: 143ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__335b9609_d851_4f68_9331_48a3366630df__0 404 in 129ms (next.js: 7ms, application-code: 122ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__bfef63cc_9da0_441e_a488_241c6e5f62a6__1 404 in 97ms (next.js: 6ms, application-code: 91ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__b40adc84_c7d3_457c_b629_cc0af31038e3__2 404 in 55ms (next.js: 7ms, application-code: 48ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__8f69e361_a255_4741_a3c2_c258f747cbc4__0 404 in 430ms (next.js: 113ms, application-code: 316ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__974bee7c_2c81_4768_bb15_a0d32028c6a2__2 404 in 323ms (next.js: 130ms, application-code: 193ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__66d24492_351b_4285_a7a8_5f8573edec07__1 404 in 328ms (next.js: 80ms, application-code: 248ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__9e7447dd_c4ac_4643_bd53_fdb01223005f__0 404 in 258ms (next.js: 121ms, application-code: 136ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__df351c77_ca60_4427_b761_67fb4509925b__1 404 in 224ms (next.js: 125ms, application-code: 100ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f1f22a94_5ce7_43ca_b2ea_0275300aaaef__2 404 in 85ms (next.js: 8ms, application-code: 77ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__068f5912_c8ad_4a64_9d17_be44a056a94c__0 404 in 231ms (next.js: 13ms, application-code: 218ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__ff429e1d_148a_4369_8035_268bb1ea4d0d__1 404 in 227ms (next.js: 31ms, application-code: 196ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__97dcd40e_e79b_4a79_a053_2322251deb60__2 404 in 226ms (next.js: 42ms, application-code: 184ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__ddd8816a_8ad4_46b9_b9b2_28c981a55869__0 404 in 224ms (next.js: 79ms, application-code: 145ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__f225492f_b1f4_4a75_8f74_b6e02f206203__1 404 in 151ms (next.js: 42ms, application-code: 109ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__ed5ea1da_7efa_412a_baa7_2b68d672f410__2 404 in 65ms (next.js: 16ms, application-code: 49ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__33bec9cd_fddd_4b2c_b86f_bdb251eb241e__0 404 in 220ms (next.js: 12ms, application-code: 208ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__4bf115c9_207b_4f7e_beac_071795b24eb1__1 404 in 221ms (next.js: 34ms, application-code: 187ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__8b9aee9b_4071_45f9_b5aa_83978f772cb7__2 404 in 220ms (next.js: 51ms, application-code: 169ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__10d71206_973b_4297_a9f0_cd2338159e6a__1 404 in 218ms (next.js: 132ms, application-code: 86ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__777db3b8_08de_4aed_958b_c6fbf0119499__0 404 in 221ms (next.js: 65ms, application-code: 156ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__34196487_11c3_4d3b_a13d_096c7011182b__2 404 in 64ms (next.js: 17ms, application-code: 46ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__7df912f8_b4d3_48a4_98db_c92450820fcb__0 404 in 289ms (next.js: 8ms, application-code: 281ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__9e3c9d81_2586_47eb_a2dc_baae34960530__2 404 in 289ms (next.js: 46ms, application-code: 244ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__d1bc816a_8bce_4119_9f06_ffcd671bb4b7__1 404 in 291ms (next.js: 20ms, application-code: 271ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__e1cf9c0e_1c24_4d2a_aa23_bf593400c855__0 404 in 291ms (next.js: 102ms, application-code: 189ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__e23c0bbb_d167_4774_896a_ba65ce87db6f__1 404 in 290ms (next.js: 164ms, application-code: 126ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__11d236ac_2a29_4d00_ae4b_84c6ea6335fb__2 404 in 117ms (next.js: 8ms, application-code: 109ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__4fe01ac4_745a_4a39_a7e5_9ab2f82cf760__2 404 in 405ms (next.js: 67ms, application-code: 338ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__a4fb5805_2c85_4d49_ae49_b92ee9cdad2a__1 404 in 437ms (next.js: 118ms, application-code: 319ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__1bd7d949_4481_4f39_9077_d4dc80f91c3e__1 404 in 444ms (next.js: 19ms, application-code: 426ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__be5e8d90_1001_4cfb_b0d2_d9ce0a917bc9__0 404 in 447ms (next.js: 7ms, application-code: 440ms)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__dbf2fea0_24c5_49b9_a51c_1ada1be61a3e__0 404 in 445ms (next.js: 79ms, application-code: 366ms)
+✓ Compiled in 99ms
+[?25h
