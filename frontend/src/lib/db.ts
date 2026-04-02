@@ -12,7 +12,7 @@ export interface Verse {
 
 export function getGeetaData(): Verse[] {
   // Access data relative to Next.js root
-  const filePath = path.join(process.cwd(), '../data/processed/geeta_database.json');
+  const filePath = path.join(process.cwd(), 'data/processed/geeta_database.json');
   const fileContent = fs.readFileSync(filePath, 'utf8');
   return JSON.parse(fileContent) as Verse[];
 }
@@ -20,7 +20,7 @@ export function getGeetaData(): Verse[] {
 let mahabharataCache: any = null;
 export function getMahabharataData() {
   if (mahabharataCache) return mahabharataCache;
-  const filePath = path.join(process.cwd(), '../data/processed/mahabharata_database.json');
+  const filePath = path.join(process.cwd(), 'data/processed/mahabharata_database.json');
   if (!fs.existsSync(filePath)) return null;
   const fileContent = fs.readFileSync(filePath, 'utf8');
   mahabharataCache = JSON.parse(fileContent);
@@ -51,7 +51,7 @@ export const CHAPTER_NAMES = [
 let ramayanaCache: any = null;
 export function getRamayanaData() {
   if (ramayanaCache) return ramayanaCache;
-  const filePath = path.join(process.cwd(), '../data/processed/ramayana_database.json');
+  const filePath = path.join(process.cwd(), 'data/processed/ramayana_database.json');
   if (!fs.existsSync(filePath)) return null;
   const fileContent = fs.readFileSync(filePath, 'utf8');
   ramayanaCache = JSON.parse(fileContent);
@@ -71,7 +71,7 @@ export const KANDA_NAMES = [
 let ramcharitmanas_cache: any = null;
 export function getRamcharitmanas() {
   if (ramcharitmanas_cache) return ramcharitmanas_cache;
-  const filePath = path.join(process.cwd(), '../data/processed/ramcharitmanas_database.json');
+  const filePath = path.join(process.cwd(), 'data/processed/ramcharitmanas_database.json');
   if (!fs.existsSync(filePath)) return null;
   const fileContent = fs.readFileSync(filePath, 'utf8');
   ramcharitmanas_cache = JSON.parse(fileContent);
