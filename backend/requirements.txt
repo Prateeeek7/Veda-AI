@@ -1,6 +1,7 @@
 flask==3.0.2
 flask-cors==4.0.0
 groq==0.4.2
+httpx<0.28.0
 edge-tts==6.1.10
 sentence-transformers==2.5.1
 faiss-cpu==1.8.0
